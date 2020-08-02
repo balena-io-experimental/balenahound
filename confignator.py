@@ -3,11 +3,13 @@
 # Generate hound config.
 
 import json
+import subprocess
+import os
 import urllib.request
 import urllib.parse
 from typing import Dict, Any, TextIO
 
-DEFAULT_SETTINGS = {"max-concurrent-indexers": 4, "dbpath": "data"}
+DEFAULT_SETTINGS = {"max-concurrent-indexers": 1, "dbpath": "data"}
 
 
 def dump_file(settings: Dict[str, Any], fileobj: TextIO) -> None:
@@ -55,6 +57,7 @@ def main():
         "company-os",
         "balena-io-playground",
     ]
+    
 
     for username in usernames:
         addrepos(get_githubrepos(username))
@@ -62,6 +65,16 @@ def main():
     with open("config.json", "w") as outfile:
         dump_file(settings, outfile)
 
+    # subprocessx = subprocess.Popen(['ps', '-A'], stdout=subprocess.PIPE)
+    # output, error = subprocessx.communicate()
+    #   
+    # target_process = "houndd"
+    # for line in output.splitlines():
+    #     if target_process in str(line):
+    #         pid = int(line.split(None, 1)[0])
+    #         os.kill(pid, 9)
+
+    # os.system("houndd")
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,19 @@
+from balenalib/armv7hf-golang:latest-run
+MAINTAINER vipul@balena.io
+EXPOSE 6080
+
+RUN install_packages python3 wget 
+
+RUN go get github.com/hound-search/hound/cmds/... \
+    && wget https://github.com/vipulgupta2048/balena-hound/raw/master/confignator.py \
+    && wget https://github.com/vipulgupta2048/balena-hound/raw/master/job
+    
+COPY job /etc/cron.d/job
+
+# Give execution rights on the cron job
+RUN chmod 0644 /etc/cron.d/job
+
+# Apply cron job
+RUN crontab /etc/cron.d/job
+
+CMD ["cron", '&&', 'python', 'confignator.py']

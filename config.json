@@ -1,6 +1,6 @@
 {
     "dbpath": "data",
-    "max-concurrent-indexers": 64,
+    "max-concurrent-indexers": 512,
     "repos": {
         "1984": {
             "url": "https://github.com/balena-io-playground/1984"
@@ -142,6 +142,9 @@
         },
         "asus-tinkerboard-blinkt": {
             "url": "https://github.com/balena-io-playground/asus-tinkerboard-blinkt"
+        },
+        "at-test": {
+            "url": "https://github.com/balena-io-playground/at-test"
         },
         "atomic-io": {
             "url": "https://github.com/balena-io-modules/atomic-io"
@@ -569,6 +572,9 @@
         "balena-hod-fulfiller": {
             "url": "https://github.com/balena-io-playground/balena-hod-fulfiller"
         },
+        "balena-homeassistant-zigbee2mqtt": {
+            "url": "https://github.com/balena-io-playground/balena-homeassistant-zigbee2mqtt"
+        },
         "balena-httpbin": {
             "url": "https://github.com/balena-io-playground/balena-httpbin"
         },
@@ -686,14 +692,8 @@
         "balena-nginx": {
             "url": "https://github.com/balena-io-playground/balena-nginx"
         },
-        "balena-nginx-hello-world": {
+        "balena-nginx-hello-world": { 
             "url": "https://github.com/balena-io-examples/balena-nginx-hello-world"
-        },
-        "balena-nmcli": {
-            "url": "https://github.com/balena-io-playground/balena-nmcli"
-        },
-        "balena-node-hello-world": {
-            "url": "https://github.com/balena-io-examples/balena-node-hello-world"
         },
         "balena-node-red": {
             "url": "https://github.com/balenalabs/balena-node-red"
@@ -1313,6 +1313,9 @@
         "dapr-integrations": {
             "url": "https://github.com/balena-io-playground/dapr-integrations"
         },
+        "dashboard-block": {
+            "url": "https://github.com/balena-io-playground/dashboard-block"
+        },
         "dashboard-with-different-ui-frameworks": {
             "url": "https://github.com/balena-io-playground/dashboard-with-different-ui-frameworks"
         },
@@ -1556,9 +1559,6 @@
         "facedetect-ui": {
             "url": "https://github.com/balena-io-playground/facedetect-ui"
         },
-        "fadecandy-led-controller": {
-            "url": "https://github.com/balena-io-playground/fadecandy-led-controller"
-        },
         "faq-bingo": {
             "url": "https://github.com/balena-io-playground/faq-bingo"
         },
@@ -1765,6 +1765,9 @@
         },
         "hostapd-minimal": {
             "url": "https://github.com/balena-io-examples/hostapd-minimal"
+        },
+        "hostapp": {
+            "url": "https://github.com/balena-os/hostapp"
         },
         "hoversnap": {
             "url": "https://github.com/balena-io-playground/hoversnap"
@@ -1975,6 +1978,9 @@
         },
         "logspout-scripts": {
             "url": "https://github.com/balena-io-playground/logspout-scripts"
+        },
+        "loopy": {
+            "url": "https://github.com/balena-io-playground/loopy"
         },
         "losant-application-webhook": {
             "url": "https://github.com/balena-io-playground/losant-application-webhook"
@@ -3115,9 +3121,6 @@
         },
         "translink-nextbus": {
             "url": "https://github.com/balena-io-playground/translink-nextbus"
-        },
-        "transport": {
-            "url": "https://github.com/balena-io-playground/transport"
         },
         "trap-signals-rs": {
             "url": "https://github.com/balena-io-playground/trap-signals-rs"
