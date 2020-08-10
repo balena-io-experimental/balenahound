@@ -9,7 +9,9 @@ import urllib.request
 import urllib.parse
 from typing import Dict, Any, TextIO
 
-DEFAULT_SETTINGS = {"max-concurrent-indexers": 1, "dbpath": "data"}
+DEFAULT_SETTINGS = {"max-concurrent-indexers": 16, "dbpath": "data", "title" : "Hound",
+    "health-check-uri" : "/healthz",
+    }
 
 
 def dump_file(settings: Dict[str, Any], fileobj: TextIO) -> None:
