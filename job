@@ -1,1 +1,1 @@
-1 * * * * /usr/bin/python confignator.py
+1 * * * * /usr/local/go/bin/go confignator

@@ -1,4 +1,4 @@
-from balenalib/armv7hf-alpine-golang:latest-run
+from balenalib/%%BALENA_MACHINE_NAME%%-alpine-golang:latest-run
 MAINTAINER vipul@balena.io
 EXPOSE 6080
 
