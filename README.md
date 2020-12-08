@@ -4,7 +4,7 @@
 
 ## What is Hound?
 
-[Hound](https://github.com/hound-search/hound) is an extremely fast source code search engine. The core is based on this article (and code) from Russ Cox: [Regular Expression Matching with a Trigram Index](http://swtch.com/~rsc/regexp/regexp4.html. Hound itself is a static [React](http://facebook.github.io/react/) frontend that talks to a [Go](http://golang.org/) backend. The backend keeps an up-to-date index for each repository and answers searches through a minimal API.
+[Hound](https://github.com/hound-search/hound) is an extremely fast source code search engine. The core is based on this article (and code) from Russ Cox: [Regular Expression Matching with a Trigram Index](http://swtch.com/~rsc/regexp/regexp4.html). Hound itself is a static [React](http://facebook.github.io/react/) frontend that talks to a [Go](http://golang.org/) backend. The backend keeps an up-to-date index for each repository and answers searches through a minimal API.
 
 Source code for Hound, backend and frontend code is [here](https://github.com/hound-search/hound) along detailed deployment instructions.
 
