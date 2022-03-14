@@ -1,0 +1,2603 @@
+{
+    "dbpath": "data",
+    "health-check-uri": "/healthz",
+    "max-concurrent-indexers": 4,
+    "repos": {
+        ".github": {
+            "url": "https://github.com/product-os/.github"
+        },
+        "1984": {
+            "url": "https://github.com/balena-io-playground/1984"
+        },
+        "AX200": {
+            "url": "https://github.com/balena-io-playground/AX200"
+        },
+        "Balena-GitLab-CI": {
+            "url": "https://github.com/balena-io-playground/Balena-GitLab-CI"
+        },
+        "BalenaLocating-ML": {
+            "url": "https://github.com/balena-io-playground/BalenaLocating-ML"
+        },
+        "ChristmasLights": {
+            "url": "https://github.com/balena-io-playground/ChristmasLights"
+        },
+        "ChristmasTree": {
+            "url": "https://github.com/balena-io-playground/ChristmasTree"
+        },
+        "DiyHeliumHotspots": {
+            "url": "https://github.com/balena-io-playground/DiyHeliumHotspots"
+        },
+        "FlowdockOmniSearch": {
+            "url": "https://github.com/balena-io-playground/FlowdockOmniSearch"
+        },
+        "Hello-Ruby": {
+            "url": "https://github.com/balena-io-playground/Hello-Ruby"
+        },
+        "Hello.Net": {
+            "url": "https://github.com/balena-io-playground/Hello.Net"
+        },
+        "ILI9341_example": {
+            "url": "https://github.com/balena-io-playground/ILI9341_example"
+        },
+        "Jormungandr": {
+            "url": "https://github.com/balena-io-playground/Jormungandr"
+        },
+        "LORIOT": {
+            "url": "https://github.com/balena-io-playground/LORIOT"
+        },
+        "NetworkManager": {
+            "url": "https://github.com/balena-io-playground/NetworkManager"
+        },
+        "PKGBUILDs": {
+            "url": "https://github.com/balena-io/PKGBUILDs"
+        },
+        "PhysHubot": {
+            "url": "https://github.com/balena-io-playground/PhysHubot"
+        },
+        "ResinGlobe": {
+            "url": "https://github.com/balena-io-playground/ResinGlobe"
+        },
+        "STS-pi-python": {
+            "url": "https://github.com/balena-io-playground/STS-pi-python"
+        },
+        "SupportBlinkt": {
+            "url": "https://github.com/balena-io-playground/SupportBlinkt"
+        },
+        "TTN-stack": {
+            "url": "https://github.com/balena-io-playground/TTN-stack"
+        },
+        "a-pi-api": {
+            "url": "https://github.com/balena-io-playground/a-pi-api"
+        },
+        "abnormality-recipe-ml": {
+            "url": "https://github.com/balena-io-playground/abnormality-recipe-ml"
+        },
+        "access-point-example": {
+            "url": "https://github.com/balena-io-playground/access-point-example"
+        },
+        "airpod": {
+            "url": "https://github.com/balena-io-playground/airpod"
+        },
+        "aiy-vision-kit": {
+            "url": "https://github.com/balena-io-playground/aiy-vision-kit"
+        },
+        "alexa-intercom": {
+            "url": "https://github.com/balena-io-playground/alexa-intercom"
+        },
+        "alexasense": {
+            "url": "https://github.com/balena-io-playground/alexasense"
+        },
+        "alog": {
+            "url": "https://github.com/balena-io-playground/alog"
+        },
+        "amplitude-user-deletion": {
+            "url": "https://github.com/balena-io-playground/amplitude-user-deletion"
+        },
+        "anka-vms": {
+            "url": "https://github.com/product-os/anka-vms"
+        },
+        "api-overall-status-fluctuation": {
+            "url": "https://github.com/balena-io-playground/api-overall-status-fluctuation"
+        },
+        "applause-o-meter": {
+            "url": "https://github.com/balena-io-playground/applause-o-meter"
+        },
+        "arm-builder-kernels": {
+            "url": "https://github.com/balena-io/arm-builder-kernels"
+        },
+        "arm32v7-TICK-stack": {
+            "url": "https://github.com/balena-io-playground/arm32v7-TICK-stack"
+        },
+        "armv7hf-debian-qemu": {
+            "url": "https://github.com/balena-io-library/armv7hf-debian-qemu"
+        },
+        "armv7hf-toolchain": {
+            "url": "https://github.com/balena-io-library/armv7hf-toolchain"
+        },
+        "artik-530s-empty-network-list": {
+            "url": "https://github.com/balena-io-playground/artik-530s-empty-network-list"
+        },
+        "artik-gpio-node": {
+            "url": "https://github.com/balena-io-playground/artik-gpio-node"
+        },
+        "artik-gpio-python": {
+            "url": "https://github.com/balena-io-playground/artik-gpio-python"
+        },
+        "artikcloud-balena-python": {
+            "url": "https://github.com/balena-io-playground/artikcloud-balena-python"
+        },
+        "artiksync": {
+            "url": "https://github.com/balena-io-playground/artiksync"
+        },
+        "asus-tinkerboard-blinkt": {
+            "url": "https://github.com/balena-io-playground/asus-tinkerboard-blinkt"
+        },
+        "at-test": {
+            "url": "https://github.com/balena-io-playground/at-test"
+        },
+        "audio-stock-ticker": {
+            "url": "https://github.com/balena-io-playground/audio-stock-ticker"
+        },
+        "aufs3-util-PKGBUILD": {
+            "url": "https://github.com/balena-io-playground/aufs3-util-PKGBUILD"
+        },
+        "autohat": {
+            "url": "https://github.com/balena-io/autohat"
+        },
+        "autohat-board": {
+            "url": "https://github.com/balena-io/autohat-board"
+        },
+        "autohat-configurator": {
+            "url": "https://github.com/balena-io/autohat-configurator"
+        },
+        "autohat-ondevice": {
+            "url": "https://github.com/balena-io/autohat-ondevice"
+        },
+        "autohat-resin-jenkins": {
+            "url": "https://github.com/balena-io/autohat-resin-jenkins"
+        },
+        "autohupr": {
+            "url": "https://github.com/balena-io-playground/autohupr"
+        },
+        "automac": {
+            "url": "https://github.com/balena-io-playground/automac"
+        },
+        "autophoto": {
+            "url": "https://github.com/balena-io-playground/autophoto"
+        },
+        "autoui": {
+            "url": "https://github.com/product-os/autoui"
+        },
+        "avahi-example": {
+            "url": "https://github.com/balena-io-playground/avahi-example"
+        },
+        "avahi-zoo-publisher": {
+            "url": "https://github.com/balena-io-playground/avahi-zoo-publisher"
+        },
+        "awesome-balena": {
+            "url": "https://github.com/balena-io-playground/awesome-balena"
+        },
+        "awesome-balena-fin": {
+            "url": "https://github.com/balena-io-playground/awesome-balena-fin"
+        },
+        "azure-iot-edge-v2": {
+            "url": "https://github.com/balena-io-playground/azure-iot-edge-v2"
+        },
+        "baggageclaim": {
+            "url": "https://github.com/balena-io-playground/baggageclaim"
+        },
+        "balena-OpenVino-ASL-demo": {
+            "url": "https://github.com/balena-io-playground/balena-OpenVino-ASL-demo"
+        },
+        "balena-OpenVino-BERT": {
+            "url": "https://github.com/balena-io-playground/balena-OpenVino-BERT"
+        },
+        "balena-PaPiRus": {
+            "url": "https://github.com/balena-io-playground/balena-PaPiRus"
+        },
+        "balena-Volumio2": {
+            "url": "https://github.com/balena-io-playground/balena-Volumio2"
+        },
+        "balena-aerofs": {
+            "url": "https://github.com/balena-io-playground/balena-aerofs"
+        },
+        "balena-apache-superset": {
+            "url": "https://github.com/balena-io-playground/balena-apache-superset"
+        },
+        "balena-app-ownership-transfer": {
+            "url": "https://github.com/balena-io-playground/balena-app-ownership-transfer"
+        },
+        "balena-arduino-programmer": {
+            "url": "https://github.com/balena-io-playground/balena-arduino-programmer"
+        },
+        "balena-artik-cloud-publisher": {
+            "url": "https://github.com/balena-io-playground/balena-artik-cloud-publisher"
+        },
+        "balena-artik10-demo": {
+            "url": "https://github.com/balena-io-playground/balena-artik10-demo"
+        },
+        "balena-avahi-dbus": {
+            "url": "https://github.com/balena-io-playground/balena-avahi-dbus"
+        },
+        "balena-azure-iot-central-example": {
+            "url": "https://github.com/balena-io-playground/balena-azure-iot-central-example"
+        },
+        "balena-azure-iot-hub": {
+            "url": "https://github.com/balena-io-playground/balena-azure-iot-hub"
+        },
+        "balena-azure-iot-remote-monitoring": {
+            "url": "https://github.com/balena-io-playground/balena-azure-iot-remote-monitoring"
+        },
+        "balena-azure-iot-sample": {
+            "url": "https://github.com/balena-io-playground/balena-azure-iot-sample"
+        },
+        "balena-bandwidth-consumption": {
+            "url": "https://github.com/balena-io-playground/balena-bandwidth-consumption"
+        },
+        "balena-barometric-station": {
+            "url": "https://github.com/balena-io-playground/balena-barometric-station"
+        },
+        "balena-base-ui": {
+            "url": "https://github.com/balena-io/balena-base-ui"
+        },
+        "balena-bbgw-bluetooth": {
+            "url": "https://github.com/balena-io-playground/balena-bbgw-bluetooth"
+        },
+        "balena-beast-id": {
+            "url": "https://github.com/balena-io-playground/balena-beast-id"
+        },
+        "balena-blinkt-rust": {
+            "url": "https://github.com/balena-io-playground/balena-blinkt-rust"
+        },
+        "balena-boinc": {
+            "url": "https://github.com/balena-io-playground/balena-boinc"
+        },
+        "balena-books": {
+            "url": "https://github.com/balena-io-playground/balena-books"
+        },
+        "balena-bridge": {
+            "url": "https://github.com/balena-io-playground/balena-bridge"
+        },
+        "balena-brightpi-camera": {
+            "url": "https://github.com/balena-io-playground/balena-brightpi-camera"
+        },
+        "balena-btc-price-tracker": {
+            "url": "https://github.com/balena-io-playground/balena-btc-price-tracker"
+        },
+        "balena-calibre-server": {
+            "url": "https://github.com/balena-io-playground/balena-calibre-server"
+        },
+        "balena-cam": {
+            "url": "https://github.com/balenalabs/balena-cam"
+        },
+        "balena-cam-edgeimpulse": {
+            "url": "https://github.com/balena-io-playground/balena-cam-edgeimpulse"
+        },
+        "balena-cam-rws": {
+            "url": "https://github.com/balena-io-playground/balena-cam-rws"
+        },
+        "balena-cam-tinyml": {
+            "url": "https://github.com/balena-io-playground/balena-cam-tinyml"
+        },
+        "balena-cam-uv4l": {
+            "url": "https://github.com/balena-io-playground/balena-cam-uv4l"
+        },
+        "balena-cam-webrtc": {
+            "url": "https://github.com/balena-io-playground/balena-cam-webrtc"
+        },
+        "balena-cli": {
+            "url": "https://github.com/balena-io-playground/balena-cli"
+        },
+        "balena-cli-advanced-masterclass": {
+            "url": "https://github.com/balena-io/balena-cli-advanced-masterclass"
+        },
+        "balena-cli-docker": {
+            "url": "https://github.com/balena-io-playground/balena-cli-docker"
+        },
+        "balena-cli-masterclass": {
+            "url": "https://github.com/balena-io/balena-cli-masterclass"
+        },
+        "balena-cloud-github-action": {
+            "url": "https://github.com/balena-io-playground/balena-cloud-github-action"
+        },
+        "balena-cncjs": {
+            "url": "https://github.com/balena-io-playground/balena-cncjs"
+        },
+        "balena-configurator-client": {
+            "url": "https://github.com/balena-io-playground/balena-configurator-client"
+        },
+        "balena-cpuset": {
+            "url": "https://github.com/balena-io-playground/balena-cpuset"
+        },
+        "balena-crawl": {
+            "url": "https://github.com/balena-io-playground/balena-crawl"
+        },
+        "balena-crystal-lang-server": {
+            "url": "https://github.com/balena-io-playground/balena-crystal-lang-server"
+        },
+        "balena-cups": {
+            "url": "https://github.com/balena-io-playground/balena-cups"
+        },
+        "balena-dash": {
+            "url": "https://github.com/balenalabs/balena-dash"
+        },
+        "balena-demonstrator": {
+            "url": "https://github.com/balena-io-playground/balena-demonstrator"
+        },
+        "balena-demonstrator-v2": {
+            "url": "https://github.com/balena-io-playground/balena-demonstrator-v2"
+        },
+        "balena-diddyborg": {
+            "url": "https://github.com/balena-io-playground/balena-diddyborg"
+        },
+        "balena-dind": {
+            "url": "https://github.com/balena-io-playground/balena-dind"
+        },
+        "balena-docker-toolbox": {
+            "url": "https://github.com/balena-io-playground/balena-docker-toolbox"
+        },
+        "balena-dockerhub-tools": {
+            "url": "https://github.com/balena-io-playground/balena-dockerhub-tools"
+        },
+        "balena-dotnet-hello-world": {
+            "url": "https://github.com/balena-io-playground/balena-dotnet-hello-world"
+        },
+        "balena-dotnet-sdk": {
+            "url": "https://github.com/balena-io-playground/balena-dotnet-sdk"
+        },
+        "balena-dslr": {
+            "url": "https://github.com/balena-io-playground/balena-dslr"
+        },
+        "balena-edison-monitoring-artik": {
+            "url": "https://github.com/balena-io-playground/balena-edison-monitoring-artik"
+        },
+        "balena-electronjs": {
+            "url": "https://github.com/balenalabs/balena-electronjs"
+        },
+        "balena-electronjs-react": {
+            "url": "https://github.com/balena-io-playground/balena-electronjs-react"
+        },
+        "balena-emails": {
+            "url": "https://github.com/balena-io/balena-emails"
+        },
+        "balena-engine-container": {
+            "url": "https://github.com/balena-io-playground/balena-engine-container"
+        },
+        "balena-engine-docker": {
+            "url": "https://github.com/balena-io-playground/balena-engine-docker"
+        },
+        "balena-envmigrate": {
+            "url": "https://github.com/balena-io-playground/balena-envmigrate"
+        },
+        "balena-envsensor": {
+            "url": "https://github.com/balena-io-playground/balena-envsensor"
+        },
+        "balena-etcher": {
+            "url": "https://github.com/balena-io-playground/balena-etcher"
+        },
+        "balena-faasd": {
+            "url": "https://github.com/balena-io-playground/balena-faasd"
+        },
+        "balena-fin-arducam-dual-camera": {
+            "url": "https://github.com/balena-io-playground/balena-fin-arducam-dual-camera"
+        },
+        "balena-fin-co-processor-arduino-core": {
+            "url": "https://github.com/balena-io-playground/balena-fin-co-processor-arduino-core"
+        },
+        "balena-fin-coprocessor-base": {
+            "url": "https://github.com/balena-io-playground/balena-fin-coprocessor-base"
+        },
+        "balena-fin-coprocessor-flash": {
+            "url": "https://github.com/balena-io-playground/balena-fin-coprocessor-flash"
+        },
+        "balena-fin-coprocessor-sdk": {
+            "url": "https://github.com/balena-io-playground/balena-fin-coprocessor-sdk"
+        },
+        "balena-fin-examples-hw": {
+            "url": "https://github.com/balena-io-playground/balena-fin-examples-hw"
+        },
+        "balena-fin-flash-coprocessor": {
+            "url": "https://github.com/balena-io-playground/balena-fin-flash-coprocessor"
+        },
+        "balena-fin-solar-rover": {
+            "url": "https://github.com/balena-io-playground/balena-fin-solar-rover"
+        },
+        "balena-fin-uhubctl": {
+            "url": "https://github.com/balena-io-playground/balena-fin-uhubctl"
+        },
+        "balena-fin-wifi-speed-test": {
+            "url": "https://github.com/balena-io-playground/balena-fin-wifi-speed-test"
+        },
+        "balena-fleet-management-masterclass": {
+            "url": "https://github.com/balena-io/balena-fleet-management-masterclass"
+        },
+        "balena-flightracker": {
+            "url": "https://github.com/balena-io-playground/balena-flightracker"
+        },
+        "balena-floppy": {
+            "url": "https://github.com/balena-io-playground/balena-floppy"
+        },
+        "balena-fstab": {
+            "url": "https://github.com/balena-io-playground/balena-fstab"
+        },
+        "balena-ft2232h-56q-openocd-efm32": {
+            "url": "https://github.com/balena-io-playground/balena-ft2232h-56q-openocd-efm32"
+        },
+        "balena-fundementals-2": {
+            "url": "https://github.com/balena-io-playground/balena-fundementals-2"
+        },
+        "balena-gateway-config": {
+            "url": "https://github.com/balena-io-playground/balena-gateway-config"
+        },
+        "balena-gateway-poc": {
+            "url": "https://github.com/balena-io-playground/balena-gateway-poc"
+        },
+        "balena-gitlab-runner": {
+            "url": "https://github.com/balena-io-playground/balena-gitlab-runner"
+        },
+        "balena-golang-seed": {
+            "url": "https://github.com/balena-io-playground/balena-golang-seed"
+        },
+        "balena-google-aiy": {
+            "url": "https://github.com/balena-io-playground/balena-google-aiy"
+        },
+        "balena-grafana": {
+            "url": "https://github.com/balena-io-playground/balena-grafana"
+        },
+        "balena-greengrass": {
+            "url": "https://github.com/balena-io-playground/balena-greengrass"
+        },
+        "balena-hal-nodejs-experiment": {
+            "url": "https://github.com/balena-io-playground/balena-hal-nodejs-experiment"
+        },
+        "balena-hal-python-experiment": {
+            "url": "https://github.com/balena-io-playground/balena-hal-python-experiment"
+        },
+        "balena-hal-sdks-tests": {
+            "url": "https://github.com/balena-io-playground/balena-hal-sdks-tests"
+        },
+        "balena-hashi-trainset": {
+            "url": "https://github.com/balena-io-playground/balena-hashi-trainset"
+        },
+        "balena-hello-world-skeleton": {
+            "url": "https://github.com/balena-io-playground/balena-hello-world-skeleton"
+        },
+        "balena-hod-fulfiller": {
+            "url": "https://github.com/balena-io-playground/balena-hod-fulfiller"
+        },
+        "balena-homeassistant-zigbee2mqtt": {
+            "url": "https://github.com/balena-io-playground/balena-homeassistant-zigbee2mqtt"
+        },
+        "balena-httpbin": {
+            "url": "https://github.com/balena-io-playground/balena-httpbin"
+        },
+        "balena-huzzah-battery": {
+            "url": "https://github.com/balena-io-playground/balena-huzzah-battery"
+        },
+        "balena-iaq": {
+            "url": "https://github.com/balena-io-playground/balena-iaq"
+        },
+        "balena-ide": {
+            "url": "https://github.com/balena-io-playground/balena-ide"
+        },
+        "balena-ikea-vindriktning": {
+            "url": "https://github.com/balena-io-playground/balena-ikea-vindriktning"
+        },
+        "balena-io-benchmark": {
+            "url": "https://github.com/balena-io-playground/balena-io-benchmark"
+        },
+        "balena-iostat": {
+            "url": "https://github.com/balena-io-playground/balena-iostat"
+        },
+        "balena-iota": {
+            "url": "https://github.com/balena-io-playground/balena-iota"
+        },
+        "balena-ipfs-blinkt": {
+            "url": "https://github.com/balena-io-playground/balena-ipfs-blinkt"
+        },
+        "balena-ir-remote": {
+            "url": "https://github.com/balena-io-playground/balena-ir-remote"
+        },
+        "balena-j5-esp8266": {
+            "url": "https://github.com/balena-io-playground/balena-j5-esp8266"
+        },
+        "balena-kitracom-web": {
+            "url": "https://github.com/balena-io-playground/balena-kitracom-web"
+        },
+        "balena-kmod-builder": {
+            "url": "https://github.com/balena-io-playground/balena-kmod-builder"
+        },
+        "balena-kodi": {
+            "url": "https://github.com/balena-io-playground/balena-kodi"
+        },
+        "balena-kubernetes": {
+            "url": "https://github.com/balena-io-playground/balena-kubernetes"
+        },
+        "balena-ledmatrix-emoji": {
+            "url": "https://github.com/balena-io-playground/balena-ledmatrix-emoji"
+        },
+        "balena-letsencrypt": {
+            "url": "https://github.com/balena-io-playground/balena-letsencrypt"
+        },
+        "balena-local-logging-example": {
+            "url": "https://github.com/balena-io-playground/balena-local-logging-example"
+        },
+        "balena-masterclass-skeleton": {
+            "url": "https://github.com/balena-io/balena-masterclass-skeleton"
+        },
+        "balena-mdns-publisher": {
+            "url": "https://github.com/balena-io/balena-mdns-publisher"
+        },
+        "balena-mdns-service": {
+            "url": "https://github.com/balena-io-playground/balena-mdns-service"
+        },
+        "balena-migrate": {
+            "url": "https://github.com/balena-io-playground/balena-migrate"
+        },
+        "balena-monero-node": {
+            "url": "https://github.com/balena-io-playground/balena-monero-node"
+        },
+        "balena-mosh-poc": {
+            "url": "https://github.com/balena-io-playground/balena-mosh-poc"
+        },
+        "balena-motioneye": {
+            "url": "https://github.com/balena-io-playground/balena-motioneye"
+        },
+        "balena-nametag": {
+            "url": "https://github.com/balena-io-playground/balena-nametag"
+        },
+        "balena-nginx": {
+            "url": "https://github.com/balena-io-playground/balena-nginx"
+        },
+        "balena-nmcli": {
+            "url": "https://github.com/balena-io-playground/balena-nmcli"
+        },
+        "balena-node-hello-world-with-mDNS": {
+            "url": "https://github.com/balena-io-playground/balena-node-hello-world-with-mDNS"
+        },
+        "balena-node-red-electronjs": {
+            "url": "https://github.com/balena-io-playground/balena-node-red-electronjs"
+        },
+        "balena-nodejs-hello-world-slim": {
+            "url": "https://github.com/balena-io-playground/balena-nodejs-hello-world-slim"
+        },
+        "balena-nodered-kitracom": {
+            "url": "https://github.com/balena-io-playground/balena-nodered-kitracom"
+        },
+        "balena-nomad": {
+            "url": "https://github.com/balena-io-playground/balena-nomad"
+        },
+        "balena-open-ap-hostapd": {
+            "url": "https://github.com/balena-io-playground/balena-open-ap-hostapd"
+        },
+        "balena-openethereum": {
+            "url": "https://github.com/balena-io-playground/balena-openethereum"
+        },
+        "balena-openssh": {
+            "url": "https://github.com/balena-io-playground/balena-openssh"
+        },
+        "balena-openssh-passwordless": {
+            "url": "https://github.com/balena-io-playground/balena-openssh-passwordless"
+        },
+        "balena-os-testing": {
+            "url": "https://github.com/balena-io-playground/balena-os-testing"
+        },
+        "balena-osquery": {
+            "url": "https://github.com/balena-io-playground/balena-osquery"
+        },
+        "balena-pam": {
+            "url": "https://github.com/balena-io-playground/balena-pam"
+        },
+        "balena-pican2-testbench": {
+            "url": "https://github.com/balena-io-playground/balena-pican2-testbench"
+        },
+        "balena-playhat": {
+            "url": "https://github.com/balena-io-playground/balena-playhat"
+        },
+        "balena-playhat-minimal": {
+            "url": "https://github.com/balena-io-playground/balena-playhat-minimal"
+        },
+        "balena-plugin-build": {
+            "url": "https://github.com/balena-io-playground/balena-plugin-build"
+        },
+        "balena-plugin-run": {
+            "url": "https://github.com/balena-io-playground/balena-plugin-run"
+        },
+        "balena-pm2-monitor": {
+            "url": "https://github.com/balena-io-playground/balena-pm2-monitor"
+        },
+        "balena-prometheus": {
+            "url": "https://github.com/balena-io-playground/balena-prometheus"
+        },
+        "balena-prometheus-device": {
+            "url": "https://github.com/balena-io-playground/balena-prometheus-device"
+        },
+        "balena-prometheus-server": {
+            "url": "https://github.com/balena-io-playground/balena-prometheus-server"
+        },
+        "balena-proxyvisor-test-app": {
+            "url": "https://github.com/balena-io-playground/balena-proxyvisor-test-app"
+        },
+        "balena-python-ntp-dbus": {
+            "url": "https://github.com/balena-io-playground/balena-python-ntp-dbus"
+        },
+        "balena-qemu-on-arm": {
+            "url": "https://github.com/balena-io-playground/balena-qemu-on-arm"
+        },
+        "balena-reboot-app": {
+            "url": "https://github.com/balena-io-playground/balena-reboot-app"
+        },
+        "balena-redis": {
+            "url": "https://github.com/product-os/balena-redis"
+        },
+        "balena-registry-middleware": {
+            "url": "https://github.com/balena-io-playground/balena-registry-middleware"
+        },
+        "balena-registryv1-fleetops": {
+            "url": "https://github.com/balena-io-playground/balena-registryv1-fleetops"
+        },
+        "balena-rocker-builder": {
+            "url": "https://github.com/balena-io-playground/balena-rocker-builder"
+        },
+        "balena-rover-wide-hat": {
+            "url": "https://github.com/balena-io-playground/balena-rover-wide-hat"
+        },
+        "balena-rpi-gpio-sample-with-python": {
+            "url": "https://github.com/balena-io-playground/balena-rpi-gpio-sample-with-python"
+        },
+        "balena-rpi-nodejs-basic-gpio": {
+            "url": "https://github.com/balena-io-playground/balena-rpi-nodejs-basic-gpio"
+        },
+        "balena-rpi-nodejs-picamera": {
+            "url": "https://github.com/balena-io-playground/balena-rpi-nodejs-picamera"
+        },
+        "balena-rpi-py-ADC": {
+            "url": "https://github.com/balena-io-playground/balena-rpi-py-ADC"
+        },
+        "balena-rpi-python-picamera": {
+            "url": "https://github.com/balena-io-playground/balena-rpi-python-picamera"
+        },
+        "balena-rpi-wifiquality": {
+            "url": "https://github.com/balena-io-playground/balena-rpi-wifiquality"
+        },
+        "balena-rpi-wolfram": {
+            "url": "https://github.com/balena-io-playground/balena-rpi-wolfram"
+        },
+        "balena-rtc-multicontainer": {
+            "url": "https://github.com/balena-io-playground/balena-rtc-multicontainer"
+        },
+        "balena-rtc-multicontainer-dbus": {
+            "url": "https://github.com/balena-io-playground/balena-rtc-multicontainer-dbus"
+        },
+        "balena-rust-blinkt": {
+            "url": "https://github.com/balena-io-playground/balena-rust-blinkt"
+        },
+        "balena-rust-hello-static": {
+            "url": "https://github.com/balena-io-playground/balena-rust-hello-static"
+        },
+        "balena-rust-sensehat-base": {
+            "url": "https://github.com/balena-io-playground/balena-rust-sensehat-base"
+        },
+        "balena-samba": {
+            "url": "https://github.com/balena-io-playground/balena-samba"
+        },
+        "balena-scales": {
+            "url": "https://github.com/balena-io-playground/balena-scales"
+        },
+        "balena-screenly-ose-playground": {
+            "url": "https://github.com/balena-io-playground/balena-screenly-ose-playground"
+        },
+        "balena-sdk": {
+            "url": "https://github.com/balena-io/balena-sdk"
+        },
+        "balena-sdk-lerna": {
+            "url": "https://github.com/balena-io-playground/balena-sdk-lerna"
+        },
+        "balena-sdk-python": {
+            "url": "https://github.com/balena-io/balena-sdk-python"
+        },
+        "balena-sense": {
+            "url": "https://github.com/balenalabs/balena-sense"
+        },
+        "balena-sense-dash": {
+            "url": "https://github.com/balena-io-playground/balena-sense-dash"
+        },
+        "balena-sense-hat-python-starter": {
+            "url": "https://github.com/balena-io-playground/balena-sense-hat-python-starter"
+        },
+        "balena-sensehat-example": {
+            "url": "https://github.com/balena-io-playground/balena-sensehat-example"
+        },
+        "balena-senseoflife": {
+            "url": "https://github.com/balena-io-playground/balena-senseoflife"
+        },
+        "balena-simple-video": {
+            "url": "https://github.com/balena-io-playground/balena-simple-video"
+        },
+        "balena-smart-lamp": {
+            "url": "https://github.com/balena-io-playground/balena-smart-lamp"
+        },
+        "balena-sound": {
+            "url": "https://github.com/balenalabs/balena-sound"
+        },
+        "balena-speaker-phat-somafm": {
+            "url": "https://github.com/balena-io-playground/balena-speaker-phat-somafm"
+        },
+        "balena-speedtest": {
+            "url": "https://github.com/balena-io-playground/balena-speedtest"
+        },
+        "balena-ssd1306-oled": {
+            "url": "https://github.com/balena-io-playground/balena-ssd1306-oled"
+        },
+        "balena-ssh-python": {
+            "url": "https://github.com/balena-io-playground/balena-ssh-python"
+        },
+        "balena-stageddeploy": {
+            "url": "https://github.com/balena-io-playground/balena-stageddeploy"
+        },
+        "balena-starter-projects": {
+            "url": "https://github.com/balena-io-playground/balena-starter-projects"
+        },
+        "balena-stress-test": {
+            "url": "https://github.com/balena-io-playground/balena-stress-test"
+        },
+        "balena-supervisor-base": {
+            "url": "https://github.com/balena-io/balena-supervisor-base"
+        },
+        "balena-swarm-builder": {
+            "url": "https://github.com/balena-io-playground/balena-swarm-builder"
+        },
+        "balena-through-tor": {
+            "url": "https://github.com/balena-io-playground/balena-through-tor"
+        },
+        "balena-toolbox": {
+            "url": "https://github.com/balena-io-playground/balena-toolbox"
+        },
+        "balena-travis-test": {
+            "url": "https://github.com/balena-io-playground/balena-travis-test"
+        },
+        "balena-trello": {
+            "url": "https://github.com/balena-io-playground/balena-trello"
+        },
+        "balena-typescript-skeleton": {
+            "url": "https://github.com/product-os/balena-typescript-skeleton"
+        },
+        "balena-ubnt": {
+            "url": "https://github.com/balena-io-playground/balena-ubnt"
+        },
+        "balena-valentines": {
+            "url": "https://github.com/balena-io-playground/balena-valentines"
+        },
+        "balena-versionist": {
+            "url": "https://github.com/product-os/balena-versionist"
+        },
+        "balena-vnc-example": {
+            "url": "https://github.com/balena-io-playground/balena-vnc-example"
+        },
+        "balena-vscode": {
+            "url": "https://github.com/balena-io-playground/balena-vscode"
+        },
+        "balena-vscode-extension": {
+            "url": "https://github.com/balena-io-playground/balena-vscode-extension"
+        },
+        "balena-wasm3": {
+            "url": "https://github.com/balena-io-playground/balena-wasm3"
+        },
+        "balena-watercooler": {
+            "url": "https://github.com/balena-io-playground/balena-watercooler"
+        },
+        "balena-wayland": {
+            "url": "https://github.com/balena-io-playground/balena-wayland"
+        },
+        "balena-webdriverio": {
+            "url": "https://github.com/balena-io-playground/balena-webdriverio"
+        },
+        "balena-websocket": {
+            "url": "https://github.com/balena-io-playground/balena-websocket"
+        },
+        "balena-wifi-connect-example": {
+            "url": "https://github.com/balena-io-playground/balena-wifi-connect-example"
+        },
+        "balena-wifivisor": {
+            "url": "https://github.com/balena-io-playground/balena-wifivisor"
+        },
+        "balena-xmas": {
+            "url": "https://github.com/balena-io-playground/balena-xmas"
+        },
+        "balenaBot-CAD": {
+            "url": "https://github.com/balenalabs/balenaBot-CAD"
+        },
+        "balenaVirt": {
+            "url": "https://github.com/balena-io-playground/balenaVirt"
+        },
+        "balenablocks-iio": {
+            "url": "https://github.com/balena-io-playground/balenablocks-iio"
+        },
+        "balenablocks-in-tree-module-builder": {
+            "url": "https://github.com/balena-io-playground/balenablocks-in-tree-module-builder"
+        },
+        "balenaci-client": {
+            "url": "https://github.com/balena-io-playground/balenaci-client"
+        },
+        "balenaci-server": {
+            "url": "https://github.com/balena-io-playground/balenaci-server"
+        },
+        "balenaclone": {
+            "url": "https://github.com/balena-io-playground/balenaclone"
+        },
+        "balenahal-nodejs": {
+            "url": "https://github.com/balena-io-playground/balenahal-nodejs"
+        },
+        "balenahal-nodejs-vanilla": {
+            "url": "https://github.com/balena-io-playground/balenahal-nodejs-vanilla"
+        },
+        "balenahal-python": {
+            "url": "https://github.com/balena-io-playground/balenahal-python"
+        },
+        "balenahound": {
+            "url": "https://github.com/balena-io-playground/balenahound"
+        },
+        "balenalabs": {
+            "url": "https://github.com/balenalabs/balenalabs"
+        },
+        "balenaos-compose": {
+            "url": "https://github.com/balena-io-playground/balenaos-compose"
+        },
+        "balenaos-manifest": {
+            "url": "https://github.com/balena-io-playground/balenaos-manifest"
+        },
+        "balenaos-masterclass": {
+            "url": "https://github.com/balena-io/balenaos-masterclass"
+        },
+        "balenaos-packet": {
+            "url": "https://github.com/balena-io-playground/balenaos-packet"
+        },
+        "balenaos-sample": {
+            "url": "https://github.com/balena-io-playground/balenaos-sample"
+        },
+        "balenaos-sample-x86": {
+            "url": "https://github.com/balena-io-playground/balenaos-sample-x86"
+        },
+        "balenaos-trimmer": {
+            "url": "https://github.com/balena-io-playground/balenaos-trimmer"
+        },
+        "balenaos-vagrant": {
+            "url": "https://github.com/balena-io-playground/balenaos-vagrant"
+        },
+        "balenaosversions": {
+            "url": "https://github.com/balena-io-playground/balenaosversions"
+        },
+        "base-images": {
+            "url": "https://github.com/balena-io-library/base-images"
+        },
+        "base-images-docs-generator": {
+            "url": "https://github.com/balena-io-playground/base-images-docs-generator"
+        },
+        "basicstation": {
+            "url": "https://github.com/balena-io-playground/basicstation"
+        },
+        "batch-supervisor-restart": {
+            "url": "https://github.com/balena-io-playground/batch-supervisor-restart"
+        },
+        "bbb-gpio-test": {
+            "url": "https://github.com/balena-io-playground/bbb-gpio-test"
+        },
+        "bbgw-environment-leds": {
+            "url": "https://github.com/balena-io-playground/bbgw-environment-leds"
+        },
+        "bbqlights": {
+            "url": "https://github.com/balena-io-playground/bbqlights"
+        },
+        "beaglebone-adc-node": {
+            "url": "https://github.com/balena-io-playground/beaglebone-adc-node"
+        },
+        "beaglebone-adc-node-dockerfile": {
+            "url": "https://github.com/balena-io-playground/beaglebone-adc-node-dockerfile"
+        },
+        "beaglebone-serial": {
+            "url": "https://github.com/balena-io-playground/beaglebone-serial"
+        },
+        "beast": {
+            "url": "https://github.com/balena-io-playground/beast"
+        },
+        "beast-image-overlay": {
+            "url": "https://github.com/balena-io-playground/beast-image-overlay"
+        },
+        "beast-parametric": {
+            "url": "https://github.com/balena-io-playground/beast-parametric"
+        },
+        "beast-phat": {
+            "url": "https://github.com/balena-io-playground/beast-phat"
+        },
+        "bird-watcher-fin": {
+            "url": "https://github.com/balena-io-playground/bird-watcher-fin"
+        },
+        "blinkt-gateway": {
+            "url": "https://github.com/balena-io-playground/blinkt-gateway"
+        },
+        "blinkt-gateway-edge": {
+            "url": "https://github.com/balena-io-playground/blinkt-gateway-edge"
+        },
+        "blinkt-server": {
+            "url": "https://github.com/balena-io-playground/blinkt-server"
+        },
+        "bluemix-balena-python": {
+            "url": "https://github.com/balena-io-playground/bluemix-balena-python"
+        },
+        "blues-notecard": {
+            "url": "https://github.com/balena-io-playground/blues-notecard"
+        },
+        "bluetooth-ros-forums": {
+            "url": "https://github.com/balena-io-playground/bluetooth-ros-forums"
+        },
+        "boombeastic-arcade": {
+            "url": "https://github.com/balena-io-playground/boombeastic-arcade"
+        },
+        "boot2docker-arm": {
+            "url": "https://github.com/balena-io/boot2docker-arm"
+        },
+        "bprompt": {
+            "url": "https://github.com/balena-io-playground/bprompt"
+        },
+        "btrfs-torture": {
+            "url": "https://github.com/balena-io-playground/btrfs-torture"
+        },
+        "bubble-level": {
+            "url": "https://github.com/balena-io-playground/bubble-level"
+        },
+        "buildpack-deps": {
+            "url": "https://github.com/balena-io-library/buildpack-deps"
+        },
+        "buildroot-base": {
+            "url": "https://github.com/balena-io-playground/buildroot-base"
+        },
+        "busybox-entware-example": {
+            "url": "https://github.com/balena-io-playground/busybox-entware-example"
+        },
+        "c-multistage-docker": {
+            "url": "https://github.com/balena-io-playground/c-multistage-docker"
+        },
+        "c9.io": {
+            "url": "https://github.com/balena-io-playground/c9.io"
+        },
+        "ca-private": {
+            "url": "https://github.com/balena-io/ca-private"
+        },
+        "camlistore-server": {
+            "url": "https://github.com/balena-io-playground/camlistore-server"
+        },
+        "capitano": {
+            "url": "https://github.com/balena-io/capitano"
+        },
+        "capitanodoc": {
+            "url": "https://github.com/balena-io/capitanodoc"
+        },
+        "capture-and-streaming": {
+            "url": "https://github.com/balena-io-playground/capture-and-streaming"
+        },
+        "cellular-test": {
+            "url": "https://github.com/balena-io-playground/cellular-test"
+        },
+        "cellular-tester": {
+            "url": "https://github.com/balena-io-playground/cellular-tester"
+        },
+        "cert-manager": {
+            "url": "https://github.com/balena-io/cert-manager"
+        },
+        "checker": {
+            "url": "https://github.com/balena-io-playground/checker"
+        },
+        "circle-github-deploy": {
+            "url": "https://github.com/balena-io-playground/circle-github-deploy"
+        },
+        "circleci-balena-test": {
+            "url": "https://github.com/balena-io-playground/circleci-balena-test"
+        },
+        "cli-multi-playground": {
+            "url": "https://github.com/balena-io-playground/cli-multi-playground"
+        },
+        "cli-transformer-template": {
+            "url": "https://github.com/product-os/cli-transformer-template"
+        },
+        "cloud-jam": {
+            "url": "https://github.com/balena-io-playground/cloud-jam"
+        },
+        "cluebot-server": {
+            "url": "https://github.com/balena-io-playground/cluebot-server"
+        },
+        "coder": {
+            "url": "https://github.com/balena-io-playground/coder"
+        },
+        "community": {
+            "url": "https://github.com/balena-io/community"
+        },
+        "compose": {
+            "url": "https://github.com/balena-io-playground/compose"
+        },
+        "compose-grabber": {
+            "url": "https://github.com/balena-io-playground/compose-grabber"
+        },
+        "concourse-arm": {
+            "url": "https://github.com/product-os/concourse-arm"
+        },
+        "connectivity-test": {
+            "url": "https://github.com/balena-io-playground/connectivity-test"
+        },
+        "container-registry-proxy": {
+            "url": "https://github.com/balena-io-playground/container-registry-proxy"
+        },
+        "contracts": {
+            "url": "https://github.com/balena-io/contracts"
+        },
+        "contrato": {
+            "url": "https://github.com/product-os/contrato"
+        },
+        "coprocessor-build-action": {
+            "url": "https://github.com/balena-io-playground/coprocessor-build-action"
+        },
+        "coral-usb-pi4": {
+            "url": "https://github.com/balena-io-playground/coral-usb-pi4"
+        },
+        "couchdb-multiservice-bootstrap": {
+            "url": "https://github.com/balena-io-playground/couchdb-multiservice-bootstrap"
+        },
+        "cron-example": {
+            "url": "https://github.com/balena-io-playground/cron-example"
+        },
+        "cron-update-locks": {
+            "url": "https://github.com/balena-io-playground/cron-update-locks"
+        },
+        "crosser": {
+            "url": "https://github.com/balena-io-playground/crosser"
+        },
+        "cue": {
+            "url": "https://github.com/balena-io-playground/cue"
+        },
+        "cue-semver": {
+            "url": "https://github.com/product-os/cue-semver"
+        },
+        "cuelang-js": {
+            "url": "https://github.com/product-os/cuelang-js"
+        },
+        "dapr-integrations": {
+            "url": "https://github.com/balena-io-playground/dapr-integrations"
+        },
+        "daprd": {
+            "url": "https://github.com/balena-io-playground/daprd"
+        },
+        "dashboard-with-different-ui-frameworks": {
+            "url": "https://github.com/balena-io-playground/dashboard-with-different-ui-frameworks"
+        },
+        "data-relay": {
+            "url": "https://github.com/balena-io-playground/data-relay"
+        },
+        "datadog": {
+            "url": "https://github.com/balena-io-playground/datadog"
+        },
+        "datadog-demo": {
+            "url": "https://github.com/balena-io-playground/datadog-demo"
+        },
+        "datadog-idle": {
+            "url": "https://github.com/balena-io-playground/datadog-idle"
+        },
+        "datadog-kerberos": {
+            "url": "https://github.com/balena-io-playground/datadog-kerberos"
+        },
+        "debian-lxde-vnc": {
+            "url": "https://github.com/balena-io-playground/debian-lxde-vnc"
+        },
+        "debugging-masterclass": {
+            "url": "https://github.com/balena-io/debugging-masterclass"
+        },
+        "decking": {
+            "url": "https://github.com/balena-io-playground/decking"
+        },
+        "dependent-base-images": {
+            "url": "https://github.com/balena-io-library/dependent-base-images"
+        },
+        "deploy-to-balena-action": {
+            "url": "https://github.com/balena-io/deploy-to-balena-action"
+        },
+        "desktop-browser": {
+            "url": "https://github.com/balena-io-playground/desktop-browser"
+        },
+        "device-actions": {
+            "url": "https://github.com/balena-io-playground/device-actions"
+        },
+        "device-proxy": {
+            "url": "https://github.com/balena-io-playground/device-proxy"
+        },
+        "device-state-logic-checker": {
+            "url": "https://github.com/balena-io-playground/device-state-logic-checker"
+        },
+        "device-types": {
+            "url": "https://github.com/balena-io-playground/device-types"
+        },
+        "device-update-runner": {
+            "url": "https://github.com/balena-io-playground/device-update-runner"
+        },
+        "deviceplot": {
+            "url": "https://github.com/balena-io-playground/deviceplot"
+        },
+        "digitiser": {
+            "url": "https://github.com/balena-io-playground/digitiser"
+        },
+        "discourse-sdk": {
+            "url": "https://github.com/product-os/discourse-sdk"
+        },
+        "diskio": {
+            "url": "https://github.com/balena-io/diskio"
+        },
+        "distribution": {
+            "url": "https://github.com/balena-io-playground/distribution"
+        },
+        "diy-opensource-intruder-detection": {
+            "url": "https://github.com/balena-io-playground/diy-opensource-intruder-detection"
+        },
+        "dnat-block": {
+            "url": "https://github.com/balena-io-playground/dnat-block"
+        },
+        "docker-compose-node-postgres": {
+            "url": "https://github.com/balena-io-playground/docker-compose-node-postgres"
+        },
+        "docker-install-script": {
+            "url": "https://github.com/balena-io/docker-install-script"
+        },
+        "docker-masterclass": {
+            "url": "https://github.com/balena-io/docker-masterclass"
+        },
+        "docker-nginx-ghost": {
+            "url": "https://github.com/balena-io-playground/docker-nginx-ghost"
+        },
+        "docker-node": {
+            "url": "https://github.com/balena-io-library/docker-node"
+        },
+        "dockvpn": {
+            "url": "https://github.com/balena-io-playground/dockvpn"
+        },
+        "docs": {
+            "url": "https://github.com/balena-io-library/docs"
+        },
+        "dowload-os-image": {
+            "url": "https://github.com/balena-io-playground/dowload-os-image"
+        },
+        "doxx": {
+            "url": "https://github.com/balena-io/doxx"
+        },
+        "dreamsheets": {
+            "url": "https://github.com/product-os/dreamsheets"
+        },
+        "dynamic-dockerfile": {
+            "url": "https://github.com/balena-io-playground/dynamic-dockerfile"
+        },
+        "edge-node-manager": {
+            "url": "https://github.com/balena-io-playground/edge-node-manager"
+        },
+        "edge-tpu-usb": {
+            "url": "https://github.com/balena-io-playground/edge-tpu-usb"
+        },
+        "edgemonkey": {
+            "url": "https://github.com/balena-io-playground/edgemonkey"
+        },
+        "edison-starter-kit-python": {
+            "url": "https://github.com/balena-io-playground/edison-starter-kit-python"
+        },
+        "egde-tpu-web-streamer": {
+            "url": "https://github.com/balena-io-playground/egde-tpu-web-streamer"
+        },
+        "electron-mdns": {
+            "url": "https://github.com/balena-io-playground/electron-mdns"
+        },
+        "electron-rpi-quick-start": {
+            "url": "https://github.com/balena-io-playground/electron-rpi-quick-start"
+        },
+        "electron-updater-example": {
+            "url": "https://github.com/balena-io-playground/electron-updater-example"
+        },
+        "engine-drop-in": {
+            "url": "https://github.com/balena-io-playground/engine-drop-in"
+        },
+        "engine-on-container-socket-lost-test": {
+            "url": "https://github.com/balena-io-playground/engine-on-container-socket-lost-test"
+        },
+        "error-chain": {
+            "url": "https://github.com/balena-io-playground/error-chain"
+        },
+        "esp32": {
+            "url": "https://github.com/balena-io-playground/esp32"
+        },
+        "esp8266": {
+            "url": "https://github.com/balena-io-playground/esp8266"
+        },
+        "esp8266-analogsensor": {
+            "url": "https://github.com/balena-io-playground/esp8266-analogsensor"
+        },
+        "esp8266-dht": {
+            "url": "https://github.com/balena-io-playground/esp8266-dht"
+        },
+        "esp8266-example-project": {
+            "url": "https://github.com/balena-io-playground/esp8266-example-project"
+        },
+        "esp8266-mqtt-publish": {
+            "url": "https://github.com/balena-io-playground/esp8266-mqtt-publish"
+        },
+        "etcher": {
+            "url": "https://github.com/balena-io/etcher"
+        },
+        "etcher-cli": {
+            "url": "https://github.com/balena-io/etcher-cli"
+        },
+        "etcher-headless": {
+            "url": "https://github.com/balena-io-playground/etcher-headless"
+        },
+        "etcher-homepage": {
+            "url": "https://github.com/balena-io/etcher-homepage"
+        },
+        "etcher-homepage-staging": {
+            "url": "https://github.com/balena-io/etcher-homepage-staging"
+        },
+        "etcher-pro-nuc": {
+            "url": "https://github.com/balena-io-playground/etcher-pro-nuc"
+        },
+        "etcher-streams": {
+            "url": "https://github.com/balena-io-playground/etcher-streams"
+        },
+        "example-rwc": {
+            "url": "https://github.com/balena-io-playground/example-rwc"
+        },
+        "exclave": {
+            "url": "https://github.com/balena-io-playground/exclave"
+        },
+        "explorer-hat-python": {
+            "url": "https://github.com/balena-io-playground/explorer-hat-python"
+        },
+        "express-mongo-sample": {
+            "url": "https://github.com/balena-io-playground/express-mongo-sample"
+        },
+        "external-systemd-udev": {
+            "url": "https://github.com/balena-io-playground/external-systemd-udev"
+        },
+        "facedetect-algorithm": {
+            "url": "https://github.com/balena-io-playground/facedetect-algorithm"
+        },
+        "facedetect-base": {
+            "url": "https://github.com/balena-io-playground/facedetect-base"
+        },
+        "facedetect-ui": {
+            "url": "https://github.com/balena-io-playground/facedetect-ui"
+        },
+        "faq-bingo": {
+            "url": "https://github.com/balena-io-playground/faq-bingo"
+        },
+        "feed-text2speech-node": {
+            "url": "https://github.com/balena-io-playground/feed-text2speech-node"
+        },
+        "fin-eeprom-read": {
+            "url": "https://github.com/balena-io-playground/fin-eeprom-read"
+        },
+        "finternet": {
+            "url": "https://github.com/balena-io-playground/finternet"
+        },
+        "firebaseDTL": {
+            "url": "https://github.com/balena-io-playground/firebaseDTL"
+        },
+        "fix-zero-sized-images": {
+            "url": "https://github.com/balena-io-playground/fix-zero-sized-images"
+        },
+        "fleetops-appmigrate": {
+            "url": "https://github.com/balena-io/fleetops-appmigrate"
+        },
+        "fleetops-os-update": {
+            "url": "https://github.com/balena-io/fleetops-os-update"
+        },
+        "fleetops-supervisor-update": {
+            "url": "https://github.com/balena-io/fleetops-supervisor-update"
+        },
+        "fleetscorebot": {
+            "url": "https://github.com/balena-io-playground/fleetscorebot"
+        },
+        "flick-remote": {
+            "url": "https://github.com/balena-io-playground/flick-remote"
+        },
+        "flowprint": {
+            "url": "https://github.com/balena-io-playground/flowprint"
+        },
+        "fold-for-covid-landing": {
+            "url": "https://github.com/balenalabs/fold-for-covid-landing"
+        },
+        "folder-test": {
+            "url": "https://github.com/balena-io-playground/folder-test"
+        },
+        "folder-test2": {
+            "url": "https://github.com/balena-io-playground/folder-test2"
+        },
+        "formula.js": {
+            "url": "https://github.com/balena-io-playground/formula.js"
+        },
+        "gaOgm": {
+            "url": "https://github.com/balena-io-playground/gaOgm"
+        },
+        "gateway-example": {
+            "url": "https://github.com/balena-io-playground/gateway-example"
+        },
+        "getting-started-guide-scripts": {
+            "url": "https://github.com/balena-io-playground/getting-started-guide-scripts"
+        },
+        "gir": {
+            "url": "https://github.com/balena-io-playground/gir"
+        },
+        "github-actions": {
+            "url": "https://github.com/balena-io-playground/github-actions"
+        },
+        "github-blinkt-monitor": {
+            "url": "https://github.com/balena-io-playground/github-blinkt-monitor"
+        },
+        "github-repo-sync-server": {
+            "url": "https://github.com/balena-io-playground/github-repo-sync-server"
+        },
+        "github-scripts": {
+            "url": "https://github.com/balena-io-playground/github-scripts"
+        },
+        "glib": {
+            "url": "https://github.com/balena-io-playground/glib"
+        },
+        "glibc-builder-in-docker": {
+            "url": "https://github.com/balena-io-playground/glibc-builder-in-docker"
+        },
+        "go-crypto-fork": {
+            "url": "https://github.com/balena-io-playground/go-crypto-fork"
+        },
+        "go-dockerclient": {
+            "url": "https://github.com/balena-io-playground/go-dockerclient"
+        },
+        "godepgraph": {
+            "url": "https://github.com/balena-io-playground/godepgraph"
+        },
+        "golang-arm": {
+            "url": "https://github.com/product-os/golang-arm"
+        },
+        "golang-multistage-docker": {
+            "url": "https://github.com/balena-io-playground/golang-multistage-docker"
+        },
+        "google-assistant": {
+            "url": "https://github.com/balena-io-playground/google-assistant"
+        },
+        "gps-tracker": {
+            "url": "https://github.com/balena-io-playground/gps-tracker"
+        },
+        "grafana": {
+            "url": "https://github.com/balena-io-playground/grafana"
+        },
+        "gsheets-cell-counter": {
+            "url": "https://github.com/balena-io-playground/gsheets-cell-counter"
+        },
+        "gsheets-formula-usage": {
+            "url": "https://github.com/balena-io-playground/gsheets-formula-usage"
+        },
+        "guardian": {
+            "url": "https://github.com/balena-io-playground/guardian"
+        },
+        "hadoop": {
+            "url": "https://github.com/balena-io-playground/hadoop"
+        },
+        "hardlockup": {
+            "url": "https://github.com/balena-io-playground/hardlockup"
+        },
+        "hardlockup-balena": {
+            "url": "https://github.com/balena-io-playground/hardlockup-balena"
+        },
+        "hardware-tagging": {
+            "url": "https://github.com/balena-io-playground/hardware-tagging"
+        },
+        "hdmi-checker": {
+            "url": "https://github.com/balena-io-playground/hdmi-checker"
+        },
+        "hdmi-image": {
+            "url": "https://github.com/balena-io-playground/hdmi-image"
+        },
+        "healthcheck-sensehat": {
+            "url": "https://github.com/balena-io-playground/healthcheck-sensehat"
+        },
+        "hear": {
+            "url": "https://github.com/balena-io-playground/hear"
+        },
+        "heattest": {
+            "url": "https://github.com/product-os/heattest"
+        },
+        "helium": {
+            "url": "https://github.com/balena-io-playground/helium"
+        },
+        "helium-gateway": {
+            "url": "https://github.com/balena-io-playground/helium-gateway"
+        },
+        "hello-gradle": {
+            "url": "https://github.com/balena-io-playground/hello-gradle"
+        },
+        "hello-python-edison": {
+            "url": "https://github.com/balena-io-playground/hello-python-edison"
+        },
+        "heroku-buildpack-nodejs": {
+            "url": "https://github.com/balena-io/heroku-buildpack-nodejs"
+        },
+        "hod-dashboard": {
+            "url": "https://github.com/balena-io-playground/hod-dashboard"
+        },
+        "hoversnap": {
+            "url": "https://github.com/balena-io-playground/hoversnap"
+        },
+        "hts221": {
+            "url": "https://github.com/balena-io-playground/hts221"
+        },
+        "hubot-as-mebot": {
+            "url": "https://github.com/people-os/hubot-as-mebot"
+        },
+        "hubot-as-webot": {
+            "url": "https://github.com/people-os/hubot-as-webot"
+        },
+        "hubot-dev-pensieve": {
+            "url": "https://github.com/balena-io-playground/hubot-dev-pensieve"
+        },
+        "hubot-monorepo": {
+            "url": "https://github.com/balena-io-playground/hubot-monorepo"
+        },
+        "hulk-smashes-api": {
+            "url": "https://github.com/balena-io-playground/hulk-smashes-api"
+        },
+        "hup-ladder": {
+            "url": "https://github.com/balena-io-playground/hup-ladder"
+        },
+        "hwclock-busybox-replacement": {
+            "url": "https://github.com/balena-io-playground/hwclock-busybox-replacement"
+        },
+        "i2c-nodejs": {
+            "url": "https://github.com/balena-io-playground/i2c-nodejs"
+        },
+        "i2c-python": {
+            "url": "https://github.com/balena-io-playground/i2c-python"
+        },
+        "identify-depop": {
+            "url": "https://github.com/balena-io-playground/identify-depop"
+        },
+        "idmapper": {
+            "url": "https://github.com/balena-io-playground/idmapper"
+        },
+        "image-catalog-example": {
+            "url": "https://github.com/balena-io-playground/image-catalog-example"
+        },
+        "image-download-config": {
+            "url": "https://github.com/balena-io-playground/image-download-config"
+        },
+        "image-utils": {
+            "url": "https://github.com/balena-io-library/image-utils"
+        },
+        "inkycal": {
+            "url": "https://github.com/balena-io-playground/inkycal"
+        },
+        "inkydraw": {
+            "url": "https://github.com/balena-io-playground/inkydraw"
+        },
+        "inkyshot": {
+            "url": "https://github.com/balenalabs/inkyshot"
+        },
+        "interface-check": {
+            "url": "https://github.com/balena-io-playground/interface-check"
+        },
+        "intro-to-git-process": {
+            "url": "https://github.com/balena-io-playground/intro-to-git-process"
+        },
+        "ipv6-router": {
+            "url": "https://github.com/balena-io-playground/ipv6-router"
+        },
+        "issues-labels": {
+            "url": "https://github.com/balena-io-playground/issues-labels"
+        },
+        "iterativelogs": {
+            "url": "https://github.com/balena-io-playground/iterativelogs"
+        },
+        "jellycheck": {
+            "url": "https://github.com/product-os/jellycheck"
+        },
+        "jellyfish": {
+            "url": "https://github.com/product-os/jellyfish"
+        },
+        "jellyfish-action-library": {
+            "url": "https://github.com/product-os/jellyfish-action-library"
+        },
+        "jellyfish-assert": {
+            "url": "https://github.com/product-os/jellyfish-assert"
+        },
+        "jellyfish-base-images": {
+            "url": "https://github.com/product-os/jellyfish-base-images"
+        },
+        "jellyfish-chat-widget": {
+            "url": "https://github.com/product-os/jellyfish-chat-widget"
+        },
+        "jellyfish-client-sdk": {
+            "url": "https://github.com/product-os/jellyfish-client-sdk"
+        },
+        "jellyfish-config": {
+            "url": "https://github.com/product-os/jellyfish-config"
+        },
+        "jellyfish-core": {
+            "url": "https://github.com/product-os/jellyfish-core"
+        },
+        "jellyfish-environment": {
+            "url": "https://github.com/product-os/jellyfish-environment"
+        },
+        "jellyfish-jellyscript": {
+            "url": "https://github.com/product-os/jellyfish-jellyscript"
+        },
+        "jellyfish-logger": {
+            "url": "https://github.com/product-os/jellyfish-logger"
+        },
+        "jellyfish-mail": {
+            "url": "https://github.com/product-os/jellyfish-mail"
+        },
+        "jellyfish-metrics": {
+            "url": "https://github.com/product-os/jellyfish-metrics"
+        },
+        "jellyfish-plugin-balena-api": {
+            "url": "https://github.com/product-os/jellyfish-plugin-balena-api"
+        },
+        "jellyfish-plugin-base": {
+            "url": "https://github.com/product-os/jellyfish-plugin-base"
+        },
+        "jellyfish-plugin-channels": {
+            "url": "https://github.com/product-os/jellyfish-plugin-channels"
+        },
+        "jellyfish-plugin-default": {
+            "url": "https://github.com/product-os/jellyfish-plugin-default"
+        },
+        "jellyfish-plugin-discourse": {
+            "url": "https://github.com/product-os/jellyfish-plugin-discourse"
+        },
+        "jellyfish-plugin-flowdock": {
+            "url": "https://github.com/product-os/jellyfish-plugin-flowdock"
+        },
+        "jellyfish-plugin-front": {
+            "url": "https://github.com/product-os/jellyfish-plugin-front"
+        },
+        "jellyfish-plugin-github": {
+            "url": "https://github.com/product-os/jellyfish-plugin-github"
+        },
+        "jellyfish-plugin-outreach": {
+            "url": "https://github.com/product-os/jellyfish-plugin-outreach"
+        },
+        "jellyfish-plugin-product-os": {
+            "url": "https://github.com/product-os/jellyfish-plugin-product-os"
+        },
+        "jellyfish-plugin-typeform": {
+            "url": "https://github.com/product-os/jellyfish-plugin-typeform"
+        },
+        "jellyfish-queue": {
+            "url": "https://github.com/product-os/jellyfish-queue"
+        },
+        "jellyfish-sync": {
+            "url": "https://github.com/product-os/jellyfish-sync"
+        },
+        "jellyfish-test-harness": {
+            "url": "https://github.com/product-os/jellyfish-test-harness"
+        },
+        "jellyfish-types": {
+            "url": "https://github.com/product-os/jellyfish-types"
+        },
+        "jellyfish-ui-components": {
+            "url": "https://github.com/product-os/jellyfish-ui-components"
+        },
+        "jellyfish-worker": {
+            "url": "https://github.com/product-os/jellyfish-worker"
+        },
+        "jetson-base-images": {
+            "url": "https://github.com/balena-io-playground/jetson-base-images"
+        },
+        "jetson-nano-alwaysai": {
+            "url": "https://github.com/balena-io-playground/jetson-nano-alwaysai"
+        },
+        "jetson-nano-sample-new": {
+            "url": "https://github.com/balena-io-playground/jetson-nano-sample-new"
+        },
+        "js-minimal-hello-world": {
+            "url": "https://github.com/balena-io-playground/js-minimal-hello-world"
+        },
+        "katapult": {
+            "url": "https://github.com/product-os/katapult"
+        },
+        "keep-wifi-up": {
+            "url": "https://github.com/balena-io-playground/keep-wifi-up"
+        },
+        "kerberos": {
+            "url": "https://github.com/balena-io-playground/kerberos"
+        },
+        "kicad-exports": {
+            "url": "https://github.com/balena-io-playground/kicad-exports"
+        },
+        "landr": {
+            "url": "https://github.com/product-os/landr"
+        },
+        "lasso-gateway": {
+            "url": "https://github.com/balena-io-playground/lasso-gateway"
+        },
+        "leviathan-experiment": {
+            "url": "https://github.com/balena-io-playground/leviathan-experiment"
+        },
+        "leviathan-worker": {
+            "url": "https://github.com/balena-io/leviathan-worker"
+        },
+        "libcamera-apps": {
+            "url": "https://github.com/balena-io-playground/libcamera-apps"
+        },
+        "libfakeuname": {
+            "url": "https://github.com/balena-io-playground/libfakeuname"
+        },
+        "libnm-rs-build": {
+            "url": "https://github.com/balena-io-playground/libnm-rs-build"
+        },
+        "libp2p": {
+            "url": "https://github.com/balena-io-playground/libp2p"
+        },
+        "libraspberrypi-builder": {
+            "url": "https://github.com/balena-io-playground/libraspberrypi-builder"
+        },
+        "light-api": {
+            "url": "https://github.com/people-os/light-api"
+        },
+        "linux": {
+            "url": "https://github.com/balena-io-playground/linux"
+        },
+        "linux-raspberrypi-aufs_friendly-PKGBUILD": {
+            "url": "https://github.com/balena-io-playground/linux-raspberrypi-aufs_friendly-PKGBUILD"
+        },
+        "linux-sunxi": {
+            "url": "https://github.com/balena-io/linux-sunxi"
+        },
+        "little-rover": {
+            "url": "https://github.com/balena-io-playground/little-rover"
+        },
+        "livepush-cli": {
+            "url": "https://github.com/balena-io-playground/livepush-cli"
+        },
+        "lockr-block": {
+            "url": "https://github.com/balena-io-playground/lockr-block"
+        },
+        "logmetricsbot": {
+            "url": "https://github.com/balena-io-playground/logmetricsbot"
+        },
+        "logspout": {
+            "url": "https://github.com/balena-io-playground/logspout"
+        },
+        "logspout-scripts": {
+            "url": "https://github.com/balena-io-playground/logspout-scripts"
+        },
+        "losant-application-webhook": {
+            "url": "https://github.com/balena-io-playground/losant-application-webhook"
+        },
+        "losant-temp-tagger": {
+            "url": "https://github.com/balena-io-playground/losant-temp-tagger"
+        },
+        "lxc-docker-PKGBUILD": {
+            "url": "https://github.com/balena-io/lxc-docker-PKGBUILD"
+        },
+        "manage_beasts": {
+            "url": "https://github.com/balena-io-playground/manage_beasts"
+        },
+        "mapp-build": {
+            "url": "https://github.com/balena-io-playground/mapp-build"
+        },
+        "mavlinkWebMonitor": {
+            "url": "https://github.com/balena-io-playground/mavlinkWebMonitor"
+        },
+        "mc_net": {
+            "url": "https://github.com/balena-io-playground/mc_net"
+        },
+        "meetbot": {
+            "url": "https://github.com/balena-io-playground/meetbot"
+        },
+        "memoizee": {
+            "url": "https://github.com/balena-io-playground/memoizee"
+        },
+        "micro-bit": {
+            "url": "https://github.com/balena-io-playground/micro-bit"
+        },
+        "mime-mearm": {
+            "url": "https://github.com/balena-io-playground/mime-mearm"
+        },
+        "miner": {
+            "url": "https://github.com/balena-io-playground/miner"
+        },
+        "mixpanel-counts": {
+            "url": "https://github.com/balena-io-playground/mixpanel-counts"
+        },
+        "moma": {
+            "url": "https://github.com/balena-io-playground/moma"
+        },
+        "mount-usb": {
+            "url": "https://github.com/balena-io-playground/mount-usb"
+        },
+        "move-this-from-pg-to-lo": {
+            "url": "https://github.com/balena-io-playground/move-this-from-pg-to-lo"
+        },
+        "movidius-rpi3-baseimage": {
+            "url": "https://github.com/balena-io-playground/movidius-rpi3-baseimage"
+        },
+        "movidius-rpi3-demo": {
+            "url": "https://github.com/balena-io-playground/movidius-rpi3-demo"
+        },
+        "mp3-doorbell": {
+            "url": "https://github.com/balena-io-playground/mp3-doorbell"
+        },
+        "mpeg1-video-streamer": {
+            "url": "https://github.com/balena-io-playground/mpeg1-video-streamer"
+        },
+        "mpeg1-video-streaming-server": {
+            "url": "https://github.com/balena-io-playground/mpeg1-video-streaming-server"
+        },
+        "mqtt-rulesengine": {
+            "url": "https://github.com/balena-io-playground/mqtt-rulesengine"
+        },
+        "mqttbroker": {
+            "url": "https://github.com/balena-io-playground/mqttbroker"
+        },
+        "mraa-java-example": {
+            "url": "https://github.com/balena-io-playground/mraa-java-example"
+        },
+        "multi-arch-adc": {
+            "url": "https://github.com/balena-io-playground/multi-arch-adc"
+        },
+        "multiBeast": {
+            "url": "https://github.com/balena-io-playground/multiBeast"
+        },
+        "multicontainer-demo-rpi3": {
+            "url": "https://github.com/balena-io-playground/multicontainer-demo-rpi3"
+        },
+        "multicontainer-experimental-demo": {
+            "url": "https://github.com/balena-io-playground/multicontainer-experimental-demo"
+        },
+        "multicontainer-metrics": {
+            "url": "https://github.com/balena-io-playground/multicontainer-metrics"
+        },
+        "multicontainer-python-redis": {
+            "url": "https://github.com/balena-io-playground/multicontainer-python-redis"
+        },
+        "music-player-device": {
+            "url": "https://github.com/balena-io-playground/music-player-device"
+        },
+        "music-player-web": {
+            "url": "https://github.com/balena-io-playground/music-player-web"
+        },
+        "musync": {
+            "url": "https://github.com/balena-io-playground/musync"
+        },
+        "musync-frontend": {
+            "url": "https://github.com/balena-io-playground/musync-frontend"
+        },
+        "my-buildroot-app": {
+            "url": "https://github.com/balena-io-playground/my-buildroot-app"
+        },
+        "nRF51822-DK": {
+            "url": "https://github.com/balena-io-playground/nRF51822-DK"
+        },
+        "narwhal": {
+            "url": "https://github.com/balena-io-playground/narwhal"
+        },
+        "nbd-to-browser": {
+            "url": "https://github.com/balena-io-playground/nbd-to-browser"
+        },
+        "netdata-smol": {
+            "url": "https://github.com/balena-io-playground/netdata-smol"
+        },
+        "netupd": {
+            "url": "https://github.com/balena-io-playground/netupd"
+        },
+        "networking-masterclass": {
+            "url": "https://github.com/balena-io/networking-masterclass"
+        },
+        "networkmanager-empty-ssids": {
+            "url": "https://github.com/balena-io-playground/networkmanager-empty-ssids"
+        },
+        "ng-clip": {
+            "url": "https://github.com/balena-io-playground/ng-clip"
+        },
+        "ngModule": {
+            "url": "https://github.com/balena-io-playground/ngModule"
+        },
+        "ngRange": {
+            "url": "https://github.com/balena-io-playground/ngRange"
+        },
+        "nl80211scan": {
+            "url": "https://github.com/balena-io-playground/nl80211scan"
+        },
+        "nm-config-injector": {
+            "url": "https://github.com/balena-io-playground/nm-config-injector"
+        },
+        "nm-create-ap-example": {
+            "url": "https://github.com/balena-io-playground/nm-create-ap-example"
+        },
+        "nm-debug-logs": {
+            "url": "https://github.com/balena-io-playground/nm-debug-logs"
+        },
+        "nmcli-example": {
+            "url": "https://github.com/balena-io-playground/nmcli-example"
+        },
+        "nmcli-no-network-manager": {
+            "url": "https://github.com/balena-io-playground/nmcli-no-network-manager"
+        },
+        "node": {
+            "url": "https://github.com/balena-io-playground/node"
+        },
+        "node-arm": {
+            "url": "https://github.com/product-os/node-arm"
+        },
+        "node-audio-stream-skew-correction": {
+            "url": "https://github.com/balena-io/node-audio-stream-skew-correction"
+        },
+        "node-binary": {
+            "url": "https://github.com/balena-io/node-binary"
+        },
+        "node-cli": {
+            "url": "https://github.com/balena-io-playground/node-cli"
+        },
+        "node-env-test": {
+            "url": "https://github.com/balena-io-playground/node-env-test"
+        },
+        "node-flowdock": {
+            "url": "https://github.com/balena-io-playground/node-flowdock"
+        },
+        "node-keyboard-input": {
+            "url": "https://github.com/balena-io-playground/node-keyboard-input"
+        },
+        "node-lockfile": {
+            "url": "https://github.com/balena-io-playground/node-lockfile"
+        },
+        "node-monitoring": {
+            "url": "https://github.com/product-os/node-monitoring"
+        },
+        "node-postgres": {
+            "url": "https://github.com/balena-io-playground/node-postgres"
+        },
+        "node-sense-hat": {
+            "url": "https://github.com/balena-io-playground/node-sense-hat"
+        },
+        "node-unzip-2": {
+            "url": "https://github.com/balena-io-library/node-unzip-2"
+        },
+        "node.analytics": {
+            "url": "https://github.com/balena-io-playground/node.analytics"
+        },
+        "nodejs-multistage-docker": {
+            "url": "https://github.com/balena-io-playground/nodejs-multistage-docker"
+        },
+        "nodewebsocket-test": {
+            "url": "https://github.com/balena-io-playground/nodewebsocket-test"
+        },
+        "noise": {
+            "url": "https://github.com/balena-io-playground/noise"
+        },
+        "noisy-demo": {
+            "url": "https://github.com/balena-io-playground/noisy-demo"
+        },
+        "nuc-zfs-example": {
+            "url": "https://github.com/balena-io-playground/nuc-zfs-example"
+        },
+        "obsoletedevicefilter": {
+            "url": "https://github.com/balena-io-playground/obsoletedevicefilter"
+        },
+        "odata-parser-rs": {
+            "url": "https://github.com/balena-io-playground/odata-parser-rs"
+        },
+        "office-lock": {
+            "url": "https://github.com/balena-io-playground/office-lock"
+        },
+        "official-images": {
+            "url": "https://github.com/balena-io-library/official-images"
+        },
+        "onlinelabs-cloudformation": {
+            "url": "https://github.com/balena-io/onlinelabs-cloudformation"
+        },
+        "onprembeast": {
+            "url": "https://github.com/balena-io-playground/onprembeast"
+        },
+        "open-balena": {
+            "url": "https://github.com/balena-io/open-balena"
+        },
+        "open-balena-api": {
+            "url": "https://github.com/balena-io/open-balena-api"
+        },
+        "open-balena-db": {
+            "url": "https://github.com/balena-io/open-balena-db"
+        },
+        "open-balena-registry": {
+            "url": "https://github.com/balena-io/open-balena-registry"
+        },
+        "open-balena-registry-proxy": {
+            "url": "https://github.com/balena-io/open-balena-registry-proxy"
+        },
+        "open-balena-s3": {
+            "url": "https://github.com/balena-io/open-balena-s3"
+        },
+        "open-balena-vpn": {
+            "url": "https://github.com/balena-io/open-balena-vpn"
+        },
+        "openBalena-composer": {
+            "url": "https://github.com/balena-io-playground/openBalena-composer"
+        },
+        "openwrt": {
+            "url": "https://github.com/balena-io-playground/openwrt"
+        },
+        "os-config-ci-image": {
+            "url": "https://github.com/balena-io-playground/os-config-ci-image"
+        },
+        "ota-dfu-python": {
+            "url": "https://github.com/balena-io-playground/ota-dfu-python"
+        },
+        "packpockmon": {
+            "url": "https://github.com/balena-io-playground/packpockmon"
+        },
+        "parallel-disk-duplicator": {
+            "url": "https://github.com/balena-io-playground/parallel-disk-duplicator"
+        },
+        "pensieve": {
+            "url": "https://github.com/balena-io/pensieve"
+        },
+        "pharos": {
+            "url": "https://github.com/balena-io-playground/pharos"
+        },
+        "pharos-js": {
+            "url": "https://github.com/balena-io-playground/pharos-js"
+        },
+        "pi-image": {
+            "url": "https://github.com/balena-io-playground/pi-image"
+        },
+        "pi-join-meet": {
+            "url": "https://github.com/balena-io-playground/pi-join-meet"
+        },
+        "pi-oled": {
+            "url": "https://github.com/balena-io-playground/pi-oled"
+        },
+        "piTFT_mBeast": {
+            "url": "https://github.com/balena-io-playground/piTFT_mBeast"
+        },
+        "pican-raspberrypi3-sample": {
+            "url": "https://github.com/balena-io-playground/pican-raspberrypi3-sample"
+        },
+        "piglow-workshop": {
+            "url": "https://github.com/balena-io-playground/piglow-workshop"
+        },
+        "pimoroni-automation-hat": {
+            "url": "https://github.com/balena-io-playground/pimoroni-automation-hat"
+        },
+        "pimoroni-enviro-phat": {
+            "url": "https://github.com/balena-io-playground/pimoroni-enviro-phat"
+        },
+        "pimoroni-skywriter-hat": {
+            "url": "https://github.com/balena-io-playground/pimoroni-skywriter-hat"
+        },
+        "pimoroni-unicornhat-hd": {
+            "url": "https://github.com/balena-io-playground/pimoroni-unicornhat-hd"
+        },
+        "pine-demo": {
+            "url": "https://github.com/balena-io-playground/pine-demo"
+        },
+        "pine-to-oas": {
+            "url": "https://github.com/balena-io-playground/pine-to-oas"
+        },
+        "pinejs": {
+            "url": "https://github.com/balena-io/pinejs"
+        },
+        "pinejs-browser": {
+            "url": "https://github.com/balena-io-playground/pinejs-browser"
+        },
+        "pipage-multiwrite": {
+            "url": "https://github.com/balena-io-playground/pipage-multiwrite"
+        },
+        "pitft-node-clock": {
+            "url": "https://github.com/balena-io-playground/pitft-node-clock"
+        },
+        "pixel-buddy": {
+            "url": "https://github.com/balena-io-playground/pixel-buddy"
+        },
+        "preloader": {
+            "url": "https://github.com/balena-io-playground/preloader"
+        },
+        "project-phoenix": {
+            "url": "https://github.com/balena-io-playground/project-phoenix"
+        },
+        "prometheus-statuspage-pusher": {
+            "url": "https://github.com/product-os/prometheus-statuspage-pusher"
+        },
+        "proxy-tunnel": {
+            "url": "https://github.com/balenalabs/proxy-tunnel"
+        },
+        "psu-notify": {
+            "url": "https://github.com/balena-io-playground/psu-notify"
+        },
+        "pumpkin-eyes": {
+            "url": "https://github.com/balena-io-playground/pumpkin-eyes"
+        },
+        "pumpkin-pi": {
+            "url": "https://github.com/balena-io-playground/pumpkin-pi"
+        },
+        "python-bme280": {
+            "url": "https://github.com/balena-io-playground/python-bme280"
+        },
+        "python-build": {
+            "url": "https://github.com/product-os/python-build"
+        },
+        "python-connman-control": {
+            "url": "https://github.com/balena-io/python-connman-control"
+        },
+        "python-package-child": {
+            "url": "https://github.com/balena-io-playground/python-package-child"
+        },
+        "python-package-parent": {
+            "url": "https://github.com/balena-io-playground/python-package-parent"
+        },
+        "python-udev-test": {
+            "url": "https://github.com/balena-io-playground/python-udev-test"
+        },
+        "qemu": {
+            "url": "https://github.com/balena-io/qemu"
+        },
+        "qr-code-block": {
+            "url": "https://github.com/balena-io-playground/qr-code-block"
+        },
+        "quad-copter": {
+            "url": "https://github.com/balena-io-playground/quad-copter"
+        },
+        "raspberry-fly": {
+            "url": "https://github.com/balena-io-playground/raspberry-fly"
+        },
+        "raspberry-pi-cases": {
+            "url": "https://github.com/balena-io-playground/raspberry-pi-cases"
+        },
+        "raspberry-pineapple": {
+            "url": "https://github.com/balena-io-playground/raspberry-pineapple"
+        },
+        "raspberrypi-camera-simple-test": {
+            "url": "https://github.com/balena-io-playground/raspberrypi-camera-simple-test"
+        },
+        "raspberrypi-opencv-test": {
+            "url": "https://github.com/balena-io-playground/raspberrypi-opencv-test"
+        },
+        "rds-privatelink-cloudformation": {
+            "url": "https://github.com/balena-io-playground/rds-privatelink-cloudformation"
+        },
+        "reInvent-demo": {
+            "url": "https://github.com/balena-io-playground/reInvent-demo"
+        },
+        "react-express-dummy-app": {
+            "url": "https://github.com/balena-io-playground/react-express-dummy-app"
+        },
+        "react-jsonschema-form": {
+            "url": "https://github.com/balena-io-playground/react-jsonschema-form"
+        },
+        "reconfix": {
+            "url": "https://github.com/balena-io/reconfix"
+        },
+        "reconfix-play": {
+            "url": "https://github.com/balena-io-playground/reconfix-play"
+        },
+        "release-it": {
+            "url": "https://github.com/balena-io-playground/release-it"
+        },
+        "release-manager": {
+            "url": "https://github.com/balena-io-playground/release-manager"
+        },
+        "release-preload": {
+            "url": "https://github.com/balena-io-playground/release-preload"
+        },
+        "remove-images-bug-reproduction": {
+            "url": "https://github.com/balena-io-playground/remove-images-bug-reproduction"
+        },
+        "rendition-treeshaking-playground": {
+            "url": "https://github.com/balena-io-playground/rendition-treeshaking-playground"
+        },
+        "renovate-config": {
+            "url": "https://github.com/product-os/renovate-config"
+        },
+        "req-queue-sim": {
+            "url": "https://github.com/balena-io-playground/req-queue-sim"
+        },
+        "resin-amd64-debian": {
+            "url": "https://github.com/balena-io-library/resin-amd64-debian"
+        },
+        "resin-armel-debian": {
+            "url": "https://github.com/balena-io-library/resin-armel-debian"
+        },
+        "resin-armhfv7-debian": {
+            "url": "https://github.com/balena-io-library/resin-armhfv7-debian"
+        },
+        "resin-caddy": {
+            "url": "https://github.com/balena-io/resin-caddy"
+        },
+        "resin-cli-installer-osx": {
+            "url": "https://github.com/balena-io/resin-cli-installer-osx"
+        },
+        "resin-cli-installer-win32": {
+            "url": "https://github.com/balena-io/resin-cli-installer-win32"
+        },
+        "resin-config-inject": {
+            "url": "https://github.com/balena-io/resin-config-inject"
+        },
+        "resin-device-path": {
+            "url": "https://github.com/balena-io/resin-device-path"
+        },
+        "resin-fedora": {
+            "url": "https://github.com/balena-io-library/resin-fedora"
+        },
+        "resin-i386-debian": {
+            "url": "https://github.com/balena-io-library/resin-i386-debian"
+        },
+        "resin-image": {
+            "url": "https://github.com/balena-io/resin-image"
+        },
+        "resin-image-config": {
+            "url": "https://github.com/balena-io/resin-image-config"
+        },
+        "resin-librato": {
+            "url": "https://github.com/balena-io/resin-librato"
+        },
+        "resin-multivisor": {
+            "url": "https://github.com/balena-io/resin-multivisor"
+        },
+        "resin-net-config": {
+            "url": "https://github.com/balena-io/resin-net-config"
+        },
+        "resin-network-config": {
+            "url": "https://github.com/balena-io/resin-network-config"
+        },
+        "resin-node-images": {
+            "url": "https://github.com/balena-io/resin-node-images"
+        },
+        "resin-olive-fruit": {
+            "url": "https://github.com/balena-io/resin-olive-fruit"
+        },
+        "resin-parallella-demo": {
+            "url": "https://github.com/balena-io/resin-parallella-demo"
+        },
+        "resin-plugin-sync": {
+            "url": "https://github.com/balena-io/resin-plugin-sync"
+        },
+        "resin-rpi-raspbian": {
+            "url": "https://github.com/balena-io-library/resin-rpi-raspbian"
+        },
+        "resin-safebox": {
+            "url": "https://github.com/balena-io-playground/resin-safebox"
+        },
+        "resin-watchdog": {
+            "url": "https://github.com/balena-io-playground/resin-watchdog"
+        },
+        "resin-yocto": {
+            "url": "https://github.com/balena-io/resin-yocto"
+        },
+        "retro-balena-pi": {
+            "url": "https://github.com/balena-io-playground/retro-balena-pi"
+        },
+        "revpi-core3-test": {
+            "url": "https://github.com/balena-io-playground/revpi-core3-test"
+        },
+        "rfq": {
+            "url": "https://github.com/product-os/rfq"
+        },
+        "rm-bower-jstat": {
+            "url": "https://github.com/balena-io-playground/rm-bower-jstat"
+        },
+        "ros-kinetic-example": {
+            "url": "https://github.com/balena-io-playground/ros-kinetic-example"
+        },
+        "rosetta-at-home": {
+            "url": "https://github.com/balenalabs/rosetta-at-home"
+        },
+        "rpi-led-raycaster": {
+            "url": "https://github.com/balena-io-playground/rpi-led-raycaster"
+        },
+        "rpi-stockmarket": {
+            "url": "https://github.com/balena-io-playground/rpi-stockmarket"
+        },
+        "rpi3-64-swift-hello": {
+            "url": "https://github.com/balena-io-playground/rpi3-64-swift-hello"
+        },
+        "rpi3-ble": {
+            "url": "https://github.com/balena-io-playground/rpi3-ble"
+        },
+        "rpi3-blue-basic": {
+            "url": "https://github.com/balena-io-playground/rpi3-blue-basic"
+        },
+        "rpi3-bluescan": {
+            "url": "https://github.com/balena-io-playground/rpi3-bluescan"
+        },
+        "rpi3-bluetooth": {
+            "url": "https://github.com/balena-io-playground/rpi3-bluetooth"
+        },
+        "rpi3-bluetooth-peripheral": {
+            "url": "https://github.com/balena-io-playground/rpi3-bluetooth-peripheral"
+        },
+        "rpi3-uart": {
+            "url": "https://github.com/balena-io-playground/rpi3-uart"
+        },
+        "rpi4-bootloader-updater": {
+            "url": "https://github.com/balena-io-playground/rpi4-bootloader-updater"
+        },
+        "rpisurveillance": {
+            "url": "https://github.com/balena-io-playground/rpisurveillance"
+        },
+        "rsync-over-ssh": {
+            "url": "https://github.com/balena-io-playground/rsync-over-ssh"
+        },
+        "rtc-cpu-stall": {
+            "url": "https://github.com/balena-io-playground/rtc-cpu-stall"
+        },
+        "rtl8188cus-connectivity": {
+            "url": "https://github.com/balena-io-playground/rtl8188cus-connectivity"
+        },
+        "runc": {
+            "url": "https://github.com/balena-io-playground/runc"
+        },
+        "rust": {
+            "url": "https://github.com/balena-io-playground/rust"
+        },
+        "rust-async-interop": {
+            "url": "https://github.com/balena-io-playground/rust-async-interop"
+        },
+        "rust-builder": {
+            "url": "https://github.com/balena-io-playground/rust-builder"
+        },
+        "rust-nodejs-browser": {
+            "url": "https://github.com/balena-io-playground/rust-nodejs-browser"
+        },
+        "rust-pkg-config-find": {
+            "url": "https://github.com/balena-io-playground/rust-pkg-config-find"
+        },
+        "rustfmt": {
+            "url": "https://github.com/balena-io-playground/rustfmt"
+        },
+        "rusty-pipe": {
+            "url": "https://github.com/balena-io-playground/rusty-pipe"
+        },
+        "safe-io": {
+            "url": "https://github.com/balena-io-playground/safe-io"
+        },
+        "sbvr-syntax": {
+            "url": "https://github.com/balena-io-playground/sbvr-syntax"
+        },
+        "scripts": {
+            "url": "https://github.com/product-os/scripts"
+        },
+        "seedstudio-respeaker-hat": {
+            "url": "https://github.com/balena-io-playground/seedstudio-respeaker-hat"
+        },
+        "sense-binary-clock": {
+            "url": "https://github.com/balena-io-playground/sense-binary-clock"
+        },
+        "sense-breakout": {
+            "url": "https://github.com/balena-io-playground/sense-breakout"
+        },
+        "sense-hat-alexa-ifttt": {
+            "url": "https://github.com/balena-io-playground/sense-hat-alexa-ifttt"
+        },
+        "sense-hat-base-application": {
+            "url": "https://github.com/balena-io-playground/sense-hat-base-application"
+        },
+        "sense-hat-multicontainer": {
+            "url": "https://github.com/balena-io-playground/sense-hat-multicontainer"
+        },
+        "sense-joystick": {
+            "url": "https://github.com/balena-io-playground/sense-joystick"
+        },
+        "sense-jump": {
+            "url": "https://github.com/balena-io-playground/sense-jump"
+        },
+        "sense-led-status": {
+            "url": "https://github.com/balena-io-playground/sense-led-status"
+        },
+        "sense-snake": {
+            "url": "https://github.com/balena-io-playground/sense-snake"
+        },
+        "sense-tunnel": {
+            "url": "https://github.com/balena-io-playground/sense-tunnel"
+        },
+        "serial-test": {
+            "url": "https://github.com/balena-io-playground/serial-test"
+        },
+        "server-local": {
+            "url": "https://github.com/balena-io-playground/server-local"
+        },
+        "services-masterclass": {
+            "url": "https://github.com/balena-io/services-masterclass"
+        },
+        "shinobi": {
+            "url": "https://github.com/balena-io-playground/shinobi"
+        },
+        "signals-c1": {
+            "url": "https://github.com/balena-io-playground/signals-c1"
+        },
+        "signalstest": {
+            "url": "https://github.com/balena-io-playground/signalstest"
+        },
+        "simple-sensor": {
+            "url": "https://github.com/balena-io-playground/simple-sensor"
+        },
+        "simple-server-haskell": {
+            "url": "https://github.com/balena-io-playground/simple-server-haskell"
+        },
+        "simple-ssh-tunnel": {
+            "url": "https://github.com/balena-io-playground/simple-ssh-tunnel"
+        },
+        "skidl-bms": {
+            "url": "https://github.com/balena-io-playground/skidl-bms"
+        },
+        "skidl-demo": {
+            "url": "https://github.com/balena-io-playground/skidl-demo"
+        },
+        "skidl-docker": {
+            "url": "https://github.com/balena-io-playground/skidl-docker"
+        },
+        "slimify-examples": {
+            "url": "https://github.com/balena-io-playground/slimify-examples"
+        },
+        "smilometer": {
+            "url": "https://github.com/balena-io-playground/smilometer"
+        },
+        "sms2speech_python": {
+            "url": "https://github.com/balena-io-playground/sms2speech_python"
+        },
+        "socket-prometheus-metrics": {
+            "url": "https://github.com/product-os/socket-prometheus-metrics"
+        },
+        "socks-proxy-tests": {
+            "url": "https://github.com/balena-io-playground/socks-proxy-tests"
+        },
+        "sound-or-not": {
+            "url": "https://github.com/balena-io-playground/sound-or-not"
+        },
+        "spectron": {
+            "url": "https://github.com/balena-io-playground/spectron"
+        },
+        "spybug": {
+            "url": "https://github.com/balena-io-playground/spybug"
+        },
+        "ssh-agent-lib": {
+            "url": "https://github.com/balena-io-playground/ssh-agent-lib"
+        },
+        "ssh-key-insert": {
+            "url": "https://github.com/balena-io-playground/ssh-key-insert"
+        },
+        "ssh-node": {
+            "url": "https://github.com/balena-io-playground/ssh-node"
+        },
+        "ssh_external_authentication": {
+            "url": "https://github.com/balena-io-playground/ssh_external_authentication"
+        },
+        "sshproxy": {
+            "url": "https://github.com/balena-io/sshproxy"
+        },
+        "steve-play-with-blocks": {
+            "url": "https://github.com/balena-io-playground/steve-play-with-blocks"
+        },
+        "storage-wipe": {
+            "url": "https://github.com/balena-io-playground/storage-wipe"
+        },
+        "stresstest": {
+            "url": "https://github.com/balena-io-playground/stresstest"
+        },
+        "superhealthcheck": {
+            "url": "https://github.com/balena-io-playground/superhealthcheck"
+        },
+        "superswap": {
+            "url": "https://github.com/balena-io-playground/superswap"
+        },
+        "superswapbot": {
+            "url": "https://github.com/balena-io-playground/superswapbot"
+        },
+        "supervisor-ledmatrix-status": {
+            "url": "https://github.com/balena-io-playground/supervisor-ledmatrix-status"
+        },
+        "supervisor-update": {
+            "url": "https://github.com/balena-io-playground/supervisor-update"
+        },
+        "supervisor-wiki": {
+            "url": "https://github.com/balena-io-playground/supervisor-wiki"
+        },
+        "support-shift-scheduler": {
+            "url": "https://github.com/people-os/support-shift-scheduler"
+        },
+        "sync-java-example": {
+            "url": "https://github.com/balena-io-playground/sync-java-example"
+        },
+        "sync-node-example": {
+            "url": "https://github.com/balena-io-playground/sync-node-example"
+        },
+        "sync-python-example": {
+            "url": "https://github.com/balena-io-playground/sync-python-example"
+        },
+        "sysbench": {
+            "url": "https://github.com/balena-io-playground/sysbench"
+        },
+        "t-buildroot-kconfig": {
+            "url": "https://github.com/balena-io-playground/t-buildroot-kconfig"
+        },
+        "t-buildroot-kconfig-to-oci": {
+            "url": "https://github.com/balena-io-playground/t-buildroot-kconfig-to-oci"
+        },
+        "t-golang-source-to-executable": {
+            "url": "https://github.com/product-os/t-golang-source-to-executable"
+        },
+        "t-node-module": {
+            "url": "https://github.com/product-os/t-node-module"
+        },
+        "t-node-module-publisher": {
+            "url": "https://github.com/product-os/t-node-module-publisher"
+        },
+        "t-npm-builder": {
+            "url": "https://github.com/product-os/t-npm-builder"
+        },
+        "t-service-source": {
+            "url": "https://github.com/product-os/t-service-source"
+        },
+        "temp-tagger": {
+            "url": "https://github.com/balena-io-playground/temp-tagger"
+        },
+        "temp2speech": {
+            "url": "https://github.com/balena-io-playground/temp2speech"
+        },
+        "test": {
+            "url": "https://github.com/balena-io-playground/test"
+        },
+        "test-deploy-balena": {
+            "url": "https://github.com/balena-io-playground/test-deploy-balena"
+        },
+        "test-generating-dt-instructions": {
+            "url": "https://github.com/balena-io-playground/test-generating-dt-instructions"
+        },
+        "test-integration": {
+            "url": "https://github.com/balena-io-playground/test-integration"
+        },
+        "text2image": {
+            "url": "https://github.com/balena-io-playground/text2image"
+        },
+        "text2speech": {
+            "url": "https://github.com/balena-io-playground/text2speech"
+        },
+        "text2speech-node": {
+            "url": "https://github.com/balena-io-playground/text2speech-node"
+        },
+        "time-resource": {
+            "url": "https://github.com/balena-io-playground/time-resource"
+        },
+        "tini": {
+            "url": "https://github.com/balena-io-library/tini"
+        },
+        "toby-l2": {
+            "url": "https://github.com/balena-io-playground/toby-l2"
+        },
+        "transformer-runtime": {
+            "url": "https://github.com/product-os/transformer-runtime"
+        },
+        "transformer-template": {
+            "url": "https://github.com/product-os/transformer-template"
+        },
+        "transformer-worker": {
+            "url": "https://github.com/product-os/transformer-worker"
+        },
+        "translink-nextbus": {
+            "url": "https://github.com/balena-io-playground/translink-nextbus"
+        },
+        "trap-signals-rs": {
+            "url": "https://github.com/balena-io-playground/trap-signals-rs"
+        },
+        "trespass": {
+            "url": "https://github.com/balena-io-playground/trespass"
+        },
+        "triangular.js": {
+            "url": "https://github.com/balena-io/triangular.js"
+        },
+        "tty.js-resin": {
+            "url": "https://github.com/balena-io-playground/tty.js-resin"
+        },
+        "typescript-library-skeleton": {
+            "url": "https://github.com/balena-io-playground/typescript-library-skeleton"
+        },
+        "udev-rule-insert": {
+            "url": "https://github.com/balena-io-playground/udev-rule-insert"
+        },
+        "unix-socket-example": {
+            "url": "https://github.com/balena-io-playground/unix-socket-example"
+        },
+        "user-controlled-update": {
+            "url": "https://github.com/balena-io-playground/user-controlled-update"
+        },
+        "userland": {
+            "url": "https://github.com/balena-io-playground/userland"
+        },
+        "v1.10-migrator": {
+            "url": "https://github.com/balena-io-playground/v1.10-migrator"
+        },
+        "valletta": {
+            "url": "https://github.com/balena-io/valletta"
+        },
+        "vehicle-control-demo": {
+            "url": "https://github.com/balena-io-playground/vehicle-control-demo"
+        },
+        "versionist": {
+            "url": "https://github.com/product-os/versionist"
+        },
+        "versionist-example": {
+            "url": "https://github.com/balena-io-playground/versionist-example"
+        },
+        "videowall": {
+            "url": "https://github.com/balena-io-playground/videowall"
+        },
+        "virtual-fleet": {
+            "url": "https://github.com/balena-io-playground/virtual-fleet"
+        },
+        "virtual-kubelet": {
+            "url": "https://github.com/balena-io-playground/virtual-kubelet"
+        },
+        "voicebeast": {
+            "url": "https://github.com/balena-io-playground/voicebeast"
+        },
+        "vpnscrape": {
+            "url": "https://github.com/balena-io-playground/vpnscrape"
+        },
+        "wamr-test": {
+            "url": "https://github.com/balena-io-playground/wamr-test"
+        },
+        "warp-test": {
+            "url": "https://github.com/balena-io-playground/warp-test"
+        },
+        "wasmifier": {
+            "url": "https://github.com/balena-io-playground/wasmifier"
+        },
+        "webcomponents-writeup": {
+            "url": "https://github.com/balena-io-playground/webcomponents-writeup"
+        },
+        "webrtc-streamer": {
+            "url": "https://github.com/balena-io-playground/webrtc-streamer"
+        },
+        "webthing-gateway": {
+            "url": "https://github.com/balena-io-playground/webthing-gateway"
+        },
+        "webthings-gateway": {
+            "url": "https://github.com/balena-io-playground/webthings-gateway"
+        },
+        "wifi-chipsets": {
+            "url": "https://github.com/balena-io-playground/wifi-chipsets"
+        },
+        "wifi-connect-async": {
+            "url": "https://github.com/balena-io-playground/wifi-connect-async"
+        },
+        "wifi-connect-ble": {
+            "url": "https://github.com/balena-io-playground/wifi-connect-ble"
+        },
+        "wifi-connect-python-example": {
+            "url": "https://github.com/balena-io-playground/wifi-connect-python-example"
+        },
+        "wifi-connect-tests": {
+            "url": "https://github.com/balena-io-playground/wifi-connect-tests"
+        },
+        "wifi-os2": {
+            "url": "https://github.com/balena-io-playground/wifi-os2"
+        },
+        "wifi-repeater": {
+            "url": "https://github.com/balenalabs/wifi-repeater"
+        },
+        "windows-base-devel": {
+            "url": "https://github.com/product-os/windows-base-devel"
+        },
+        "windows-nodejs": {
+            "url": "https://github.com/product-os/windows-nodejs"
+        },
+        "wireless-hdmi-link": {
+            "url": "https://github.com/balena-io-playground/wireless-hdmi-link"
+        },
+        "xserver-web-vnc": {
+            "url": "https://github.com/balena-io-playground/xserver-web-vnc"
+        },
+        "xserverBlock": {
+            "url": "https://github.com/balena-io-playground/xserverBlock"
+        },
+        "xstate-viz": {
+            "url": "https://github.com/balena-io-playground/xstate-viz"
+        }
+    },
+    "title": "Hound"
+}

@@ -1,34 +1,38 @@
 #!/usr/bin/python3
-# Generate hound config.
+# Generate hound's config.json file
 
 import json
-import os
 import urllib.request
 import urllib.parse
-from typing import Dict, Any, TextIO
+from typing import Dict, Any
 
-
+# Settings for Hound https://github.com/hound-search/hound#keeping-repos-updated
 DEFAULT_SETTINGS = {
-    "max-concurrent-indexers": 4, 
-    "dbpath": "data", 
-    "title" : "Hound",
-    "health-check-uri" : "/healthz",
+    "ms-between-poll": 30,
+    "max-concurrent-indexers": 4,
+    "dbpath": "data",
+    "title": "Hound",
+    "health-check-uri": "/healthz",
 }
 
+# Repositories that need to be indexed from organizations
+# Add your organization here
+organizations = [
+    "balena-io",
+    "balena-io-library",
+    "balenalabs",
+    "balena-io-playground",
+]
 
-def dump_file(settings: Dict[str, Any], fileobj: TextIO) -> None:
-    json.dump(settings, fileobj, indent=4, sort_keys=True)
-    fileobj.write("\n")
-
-
-def get_githubrepos(username: str, page=None, per_page=100):
-    path = f"https://api.github.com/users/{username}/repos"
-    kw = {"per_page": 100}
-    if page is not None:
-        kw["page"] = page
-        next_page = page + 1
+# Fetches all GitHub repo urls from a GitHub org
+def fetchThemRepos(org: str, nextPage=None, per_page=100):
+    path = f"https://api.github.com/users/{org}/repos"
+    kw = {"per_page": per_page}
+    if nextPage is not None:
+        kw["page"] = nextPage
+        nextPage = nextPage + 1
     else:
-        next_page = 2
+        nextPage = 1
     query = urllib.parse.urlencode(kw)
     with urllib.request.urlopen("{}?{}".format(path, query)) as resp:
         body = resp.read()
@@ -38,32 +42,24 @@ def get_githubrepos(username: str, page=None, per_page=100):
         if data:
             for repo in data:
                 yield repo["name"], repo["html_url"]
-            yield from get_githubrepos(username, next_page, per_page=per_page)
+            yield from fetchThemRepos(org, nextPage, per_page=per_page)
 
 
 def main():
     settings = DEFAULT_SETTINGS.copy()
     settings["repos"] = repos = {}
 
-    def addrepos(iterable):
-        for name, url in iterable:
+    def addrepos(repositories: Dict[str, Any]) -> None:
+        for name, url in repositories:
             repos[name] = {"url": url}
 
-    usernames = [
-        "balena-io",
-        "balena-io-library",
-        "balenalabs",
-        "product-os",
-        "people-os",
-        "company-os",
-        "balena-io-playground",
-    ]
-    
-    for username in usernames:
-        addrepos(get_githubrepos(username))
+    for org in organizations:
+        addrepos(fetchThemRepos(org))
 
-    with open("config.json", "w") as outfile:
-        dump_file(settings, outfile)
+    with open("config.json", "w") as configFile:
+        json.dump(settings, configFile, indent=4, sort_keys=True)
+        configFile.write("\n")
+
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,16 @@
+name: hound
+type: sw.application
+description: >-
+  An extremely fast git repository code searcher.
+assets:
+  repository:
+    type: blob.asset
+    data:
+      url: 'https://github.com/balena-io-playground/balenahound'
+data:
+  defaultDeviceType: raspberrypi4-64
+  supportedDeviceTypes:
+    - raspberrypi4-64
+    - fincm3
+    - intel-nuc
+version: 2.0.0

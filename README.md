@@ -1,6 +1,6 @@
 # Balena-Hound
 
-> Run your personal hound instance over on balenaCloud with auto-indexing repositories 
+> Run your personal hound instance on a Raspberry Pi with auto-indexing repositories 
 
 ## What is Hound?
 
@@ -8,22 +8,34 @@
 
 Source code for Hound, backend and frontend code is [here](https://github.com/hound-search/hound) along detailed deployment instructions.
 
-## What new are we added/adding? 
-1. Respositories names as seperate search results for more granular results (in pipeline) 
-2. Deploy over RaspberryPi's, balenaFin, NUC - whatever IoT device you like for your personal hound instance accessible only to you. Bring on the private stuff. 
-3. Auto-indexing repositories manually with a Python script at the moment ([Credit](https://eklitzke.org/indexing-git-repos-with-hound))  
-   
-As much as I like Python, I am not a big fan of installing Python in a golang docker base image to bloat it up all for a single script. So, I am writing a alternative Golang executable for the same script which will be run as a Cron job inside the container every day. So effectively Cron will run the indexing script to create a config.json every day. Once that is complete, we will delete the current config.json, kill and re-run houndd, let it index based of the previous data already available. Should be quicker, I hope.
+## Created a configuration generator
 
-## Let's talk deployment
+Auto-indexing repositories manually with a [Python script]((https://eklitzke.org/indexing-git-repos-with-hound)) at the moment. Additionally, one can configure the script to run as a cron job in order to look for new repositories and generate latest configuration for Hound.
 
-0. Hit this button below to deploy balena-hound to balenaCloud (First 10 devices is free!)
+Once a new configuration is generated, the script kills and resurrects a new hound to run on the latest configuration. 
+
+## Running Hound on your board
+
+1. Deploy hound on [balenaCloud](https://balena.io)
 
 [![](https://www.balena.io/deploy.png)](https://dashboard.balena-cloud.com/deploy)
 
-1. Clone the repository and change directory into it.
+2. Add a new device to your newly created fleet, let it index the repos (Takes time) and it will be ready with message in the console. 
 
-2. Open `confignator.py` to edit the default settings & organisation usernames for indexing. 
+```
+running server at http://localhost:80
+``` 
+
+If you are new to balenaCloud, follow the [getting started](https://www.balena.io/docs/learn/getting-started/raspberrypi3/nodejs/) guide.
+
+![](dashboard.png)
+
+By default, Hound will be running on balena's GitHub orgs as a way for you to play around with the instance and test it out. You can easily change this creating a new [config.json](https://github.com/hound-search/hound#quick-start-guide) file using the example [config-example.json](https://github.com/hound-search/hound/blob/main/config-example.json) file.
+
+
+### Configuring your hound
+
+1. Open `confignator.py` file to edit the default settings & organization usernames for indexing. 
 
 ```
 DEFAULT_SETTINGS = {
@@ -57,13 +69,9 @@ python3 confignator.py
 balena push balena-hound
 ```
 
-4. Provision the device on `balena-hound`, let it index the repos (Takes time) and it will be ready with message in the console. 
+4. Provision the device on `balena-hound`, 
 
-```
-running server at http://localhost:80
-```
 
-![](dashboard.png)
 
 ## If you are new to balenaCloud
 
