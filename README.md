@@ -12,8 +12,6 @@ Source code for Hound, backend and frontend code is [here](https://github.com/ho
 
 Auto-indexing repositories manually with a [Python script]((https://eklitzke.org/indexing-git-repos-with-hound)) at the moment. Additionally, one can configure the script to run as a cron job in order to look for new repositories and generate latest configuration for Hound.
 
-Once a new configuration is generated, the script kills and resurrects a new hound to run on the latest configuration. 
-
 ## Running Hound on your board
 
 1. Deploy hound on [balenaCloud](https://balena.io)
@@ -35,9 +33,9 @@ By default, Hound will be running on balena's GitHub orgs as a way for you to pl
 
 ### Configuring your hound
 
-1. Open `confignator.py` file to edit the default settings & organization usernames for indexing. 
+1. Edit the following dictionaries in the `confignator.py` file as per your needs. Confignator generates config files for all repositories present in the orgs you specify.
 
-```
+```python
 DEFAULT_SETTINGS = {
     "max-concurrent-indexers": 4, 
     "dbpath": "data", 
@@ -46,32 +44,21 @@ DEFAULT_SETTINGS = {
 }
 
 
-usernames = [
+organizations = [
         "balena-io",
         "balena-io-library",
         "balenalabs",
-        "product-os",
-        "people-os",
-        "company-os",
         "balena-io-playground",
 ]    
 ```
 
-3. Run `confignator.py` (Can be run only once per hour, GitHub API rate limits.)
+2. Run `confignator.py`. Confignator fetches a fresh list of repositories from the GitHub API, hence make sure not to run it repeatedly in order to avoid hitting the rate limit.
 
 ```
 python3 confignator.py
 ```
 
-3. When a config.json with all URLs is created, then create a new release. 
-
-```
-balena push balena-hound
-```
-
-4. Provision the device on `balena-hound`, 
-
-
+This will create a file called `config.,json` in the root directory. Push a new release to your fleet in order for the hound to run on the latest configuration. Additionally, one can configure the script to run as a cron job in order to look for new repositories and generate latest configuration for Hound.
 
 ## If you are new to balenaCloud
 

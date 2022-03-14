@@ -1,1 +1,1 @@
-1 * * * * /usr/local/go/bin/go confignator
+1 * * * * python3 /hound/confignator.py && /usr/local/go/bin/go confignator

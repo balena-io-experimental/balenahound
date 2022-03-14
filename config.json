@@ -2,10 +2,8 @@
     "dbpath": "data",
     "health-check-uri": "/healthz",
     "max-concurrent-indexers": 4,
+    "ms-between-poll": 30,
     "repos": {
-        ".github": {
-            "url": "https://github.com/product-os/.github"
-        },
         "1984": {
             "url": "https://github.com/balena-io-playground/1984"
         },
@@ -93,9 +91,6 @@
         "amplitude-user-deletion": {
             "url": "https://github.com/balena-io-playground/amplitude-user-deletion"
         },
-        "anka-vms": {
-            "url": "https://github.com/product-os/anka-vms"
-        },
         "api-overall-status-fluctuation": {
             "url": "https://github.com/balena-io-playground/api-overall-status-fluctuation"
         },
@@ -164,9 +159,6 @@
         },
         "autophoto": {
             "url": "https://github.com/balena-io-playground/autophoto"
-        },
-        "autoui": {
-            "url": "https://github.com/product-os/autoui"
         },
         "avahi-example": {
             "url": "https://github.com/balena-io-playground/avahi-example"
@@ -627,9 +619,6 @@
         "balena-reboot-app": {
             "url": "https://github.com/balena-io-playground/balena-reboot-app"
         },
-        "balena-redis": {
-            "url": "https://github.com/product-os/balena-redis"
-        },
         "balena-registry-middleware": {
             "url": "https://github.com/balena-io-playground/balena-registry-middleware"
         },
@@ -759,17 +748,11 @@
         "balena-trello": {
             "url": "https://github.com/balena-io-playground/balena-trello"
         },
-        "balena-typescript-skeleton": {
-            "url": "https://github.com/product-os/balena-typescript-skeleton"
-        },
         "balena-ubnt": {
             "url": "https://github.com/balena-io-playground/balena-ubnt"
         },
         "balena-valentines": {
             "url": "https://github.com/balena-io-playground/balena-valentines"
-        },
-        "balena-versionist": {
-            "url": "https://github.com/product-os/balena-versionist"
         },
         "balena-vnc-example": {
             "url": "https://github.com/balena-io-playground/balena-vnc-example"
@@ -996,9 +979,6 @@
         "cli-multi-playground": {
             "url": "https://github.com/balena-io-playground/cli-multi-playground"
         },
-        "cli-transformer-template": {
-            "url": "https://github.com/product-os/cli-transformer-template"
-        },
         "cloud-jam": {
             "url": "https://github.com/balena-io-playground/cloud-jam"
         },
@@ -1017,9 +997,6 @@
         "compose-grabber": {
             "url": "https://github.com/balena-io-playground/compose-grabber"
         },
-        "concourse-arm": {
-            "url": "https://github.com/product-os/concourse-arm"
-        },
         "connectivity-test": {
             "url": "https://github.com/balena-io-playground/connectivity-test"
         },
@@ -1028,9 +1005,6 @@
         },
         "contracts": {
             "url": "https://github.com/balena-io/contracts"
-        },
-        "contrato": {
-            "url": "https://github.com/product-os/contrato"
         },
         "coprocessor-build-action": {
             "url": "https://github.com/balena-io-playground/coprocessor-build-action"
@@ -1052,12 +1026,6 @@
         },
         "cue": {
             "url": "https://github.com/balena-io-playground/cue"
-        },
-        "cue-semver": {
-            "url": "https://github.com/product-os/cue-semver"
-        },
-        "cuelang-js": {
-            "url": "https://github.com/product-os/cuelang-js"
         },
         "dapr-integrations": {
             "url": "https://github.com/balena-io-playground/dapr-integrations"
@@ -1122,9 +1090,6 @@
         "digitiser": {
             "url": "https://github.com/balena-io-playground/digitiser"
         },
-        "discourse-sdk": {
-            "url": "https://github.com/product-os/discourse-sdk"
-        },
         "diskio": {
             "url": "https://github.com/balena-io/diskio"
         },
@@ -1163,9 +1128,6 @@
         },
         "doxx": {
             "url": "https://github.com/balena-io/doxx"
-        },
-        "dreamsheets": {
-            "url": "https://github.com/product-os/dreamsheets"
         },
         "dynamic-dockerfile": {
             "url": "https://github.com/balena-io-playground/dynamic-dockerfile"
@@ -1353,9 +1315,6 @@
         "godepgraph": {
             "url": "https://github.com/balena-io-playground/godepgraph"
         },
-        "golang-arm": {
-            "url": "https://github.com/product-os/golang-arm"
-        },
         "golang-multistage-docker": {
             "url": "https://github.com/balena-io-playground/golang-multistage-docker"
         },
@@ -1401,9 +1360,6 @@
         "hear": {
             "url": "https://github.com/balena-io-playground/hear"
         },
-        "heattest": {
-            "url": "https://github.com/product-os/heattest"
-        },
         "helium": {
             "url": "https://github.com/balena-io-playground/helium"
         },
@@ -1427,12 +1383,6 @@
         },
         "hts221": {
             "url": "https://github.com/balena-io-playground/hts221"
-        },
-        "hubot-as-mebot": {
-            "url": "https://github.com/people-os/hubot-as-mebot"
-        },
-        "hubot-as-webot": {
-            "url": "https://github.com/people-os/hubot-as-webot"
         },
         "hubot-dev-pensieve": {
             "url": "https://github.com/balena-io-playground/hubot-dev-pensieve"
@@ -1494,99 +1444,6 @@
         "iterativelogs": {
             "url": "https://github.com/balena-io-playground/iterativelogs"
         },
-        "jellycheck": {
-            "url": "https://github.com/product-os/jellycheck"
-        },
-        "jellyfish": {
-            "url": "https://github.com/product-os/jellyfish"
-        },
-        "jellyfish-action-library": {
-            "url": "https://github.com/product-os/jellyfish-action-library"
-        },
-        "jellyfish-assert": {
-            "url": "https://github.com/product-os/jellyfish-assert"
-        },
-        "jellyfish-base-images": {
-            "url": "https://github.com/product-os/jellyfish-base-images"
-        },
-        "jellyfish-chat-widget": {
-            "url": "https://github.com/product-os/jellyfish-chat-widget"
-        },
-        "jellyfish-client-sdk": {
-            "url": "https://github.com/product-os/jellyfish-client-sdk"
-        },
-        "jellyfish-config": {
-            "url": "https://github.com/product-os/jellyfish-config"
-        },
-        "jellyfish-core": {
-            "url": "https://github.com/product-os/jellyfish-core"
-        },
-        "jellyfish-environment": {
-            "url": "https://github.com/product-os/jellyfish-environment"
-        },
-        "jellyfish-jellyscript": {
-            "url": "https://github.com/product-os/jellyfish-jellyscript"
-        },
-        "jellyfish-logger": {
-            "url": "https://github.com/product-os/jellyfish-logger"
-        },
-        "jellyfish-mail": {
-            "url": "https://github.com/product-os/jellyfish-mail"
-        },
-        "jellyfish-metrics": {
-            "url": "https://github.com/product-os/jellyfish-metrics"
-        },
-        "jellyfish-plugin-balena-api": {
-            "url": "https://github.com/product-os/jellyfish-plugin-balena-api"
-        },
-        "jellyfish-plugin-base": {
-            "url": "https://github.com/product-os/jellyfish-plugin-base"
-        },
-        "jellyfish-plugin-channels": {
-            "url": "https://github.com/product-os/jellyfish-plugin-channels"
-        },
-        "jellyfish-plugin-default": {
-            "url": "https://github.com/product-os/jellyfish-plugin-default"
-        },
-        "jellyfish-plugin-discourse": {
-            "url": "https://github.com/product-os/jellyfish-plugin-discourse"
-        },
-        "jellyfish-plugin-flowdock": {
-            "url": "https://github.com/product-os/jellyfish-plugin-flowdock"
-        },
-        "jellyfish-plugin-front": {
-            "url": "https://github.com/product-os/jellyfish-plugin-front"
-        },
-        "jellyfish-plugin-github": {
-            "url": "https://github.com/product-os/jellyfish-plugin-github"
-        },
-        "jellyfish-plugin-outreach": {
-            "url": "https://github.com/product-os/jellyfish-plugin-outreach"
-        },
-        "jellyfish-plugin-product-os": {
-            "url": "https://github.com/product-os/jellyfish-plugin-product-os"
-        },
-        "jellyfish-plugin-typeform": {
-            "url": "https://github.com/product-os/jellyfish-plugin-typeform"
-        },
-        "jellyfish-queue": {
-            "url": "https://github.com/product-os/jellyfish-queue"
-        },
-        "jellyfish-sync": {
-            "url": "https://github.com/product-os/jellyfish-sync"
-        },
-        "jellyfish-test-harness": {
-            "url": "https://github.com/product-os/jellyfish-test-harness"
-        },
-        "jellyfish-types": {
-            "url": "https://github.com/product-os/jellyfish-types"
-        },
-        "jellyfish-ui-components": {
-            "url": "https://github.com/product-os/jellyfish-ui-components"
-        },
-        "jellyfish-worker": {
-            "url": "https://github.com/product-os/jellyfish-worker"
-        },
         "jetson-base-images": {
             "url": "https://github.com/balena-io-playground/jetson-base-images"
         },
@@ -1599,9 +1456,6 @@
         "js-minimal-hello-world": {
             "url": "https://github.com/balena-io-playground/js-minimal-hello-world"
         },
-        "katapult": {
-            "url": "https://github.com/product-os/katapult"
-        },
         "keep-wifi-up": {
             "url": "https://github.com/balena-io-playground/keep-wifi-up"
         },
@@ -1610,9 +1464,6 @@
         },
         "kicad-exports": {
             "url": "https://github.com/balena-io-playground/kicad-exports"
-        },
-        "landr": {
-            "url": "https://github.com/product-os/landr"
         },
         "lasso-gateway": {
             "url": "https://github.com/balena-io-playground/lasso-gateway"
@@ -1637,9 +1488,6 @@
         },
         "libraspberrypi-builder": {
             "url": "https://github.com/balena-io-playground/libraspberrypi-builder"
-        },
-        "light-api": {
-            "url": "https://github.com/people-os/light-api"
         },
         "linux": {
             "url": "https://github.com/balena-io-playground/linux"
@@ -1824,9 +1672,6 @@
         "node": {
             "url": "https://github.com/balena-io-playground/node"
         },
-        "node-arm": {
-            "url": "https://github.com/product-os/node-arm"
-        },
         "node-audio-stream-skew-correction": {
             "url": "https://github.com/balena-io/node-audio-stream-skew-correction"
         },
@@ -1847,9 +1692,6 @@
         },
         "node-lockfile": {
             "url": "https://github.com/balena-io-playground/node-lockfile"
-        },
-        "node-monitoring": {
-            "url": "https://github.com/product-os/node-monitoring"
         },
         "node-postgres": {
             "url": "https://github.com/balena-io-playground/node-postgres"
@@ -2001,9 +1843,6 @@
         "project-phoenix": {
             "url": "https://github.com/balena-io-playground/project-phoenix"
         },
-        "prometheus-statuspage-pusher": {
-            "url": "https://github.com/product-os/prometheus-statuspage-pusher"
-        },
         "proxy-tunnel": {
             "url": "https://github.com/balenalabs/proxy-tunnel"
         },
@@ -2018,9 +1857,6 @@
         },
         "python-bme280": {
             "url": "https://github.com/balena-io-playground/python-bme280"
-        },
-        "python-build": {
-            "url": "https://github.com/product-os/python-build"
         },
         "python-connman-control": {
             "url": "https://github.com/balena-io/python-connman-control"
@@ -2090,9 +1926,6 @@
         },
         "rendition-treeshaking-playground": {
             "url": "https://github.com/balena-io-playground/rendition-treeshaking-playground"
-        },
-        "renovate-config": {
-            "url": "https://github.com/product-os/renovate-config"
         },
         "req-queue-sim": {
             "url": "https://github.com/balena-io-playground/req-queue-sim"
@@ -2175,9 +2008,6 @@
         "revpi-core3-test": {
             "url": "https://github.com/balena-io-playground/revpi-core3-test"
         },
-        "rfq": {
-            "url": "https://github.com/product-os/rfq"
-        },
         "rm-bower-jstat": {
             "url": "https://github.com/balena-io-playground/rm-bower-jstat"
         },
@@ -2259,9 +2089,6 @@
         "sbvr-syntax": {
             "url": "https://github.com/balena-io-playground/sbvr-syntax"
         },
-        "scripts": {
-            "url": "https://github.com/product-os/scripts"
-        },
         "seedstudio-respeaker-hat": {
             "url": "https://github.com/balena-io-playground/seedstudio-respeaker-hat"
         },
@@ -2340,9 +2167,6 @@
         "sms2speech_python": {
             "url": "https://github.com/balena-io-playground/sms2speech_python"
         },
-        "socket-prometheus-metrics": {
-            "url": "https://github.com/product-os/socket-prometheus-metrics"
-        },
         "socks-proxy-tests": {
             "url": "https://github.com/balena-io-playground/socks-proxy-tests"
         },
@@ -2397,9 +2221,6 @@
         "supervisor-wiki": {
             "url": "https://github.com/balena-io-playground/supervisor-wiki"
         },
-        "support-shift-scheduler": {
-            "url": "https://github.com/people-os/support-shift-scheduler"
-        },
         "sync-java-example": {
             "url": "https://github.com/balena-io-playground/sync-java-example"
         },
@@ -2417,21 +2238,6 @@
         },
         "t-buildroot-kconfig-to-oci": {
             "url": "https://github.com/balena-io-playground/t-buildroot-kconfig-to-oci"
-        },
-        "t-golang-source-to-executable": {
-            "url": "https://github.com/product-os/t-golang-source-to-executable"
-        },
-        "t-node-module": {
-            "url": "https://github.com/product-os/t-node-module"
-        },
-        "t-node-module-publisher": {
-            "url": "https://github.com/product-os/t-node-module-publisher"
-        },
-        "t-npm-builder": {
-            "url": "https://github.com/product-os/t-npm-builder"
-        },
-        "t-service-source": {
-            "url": "https://github.com/product-os/t-service-source"
         },
         "temp-tagger": {
             "url": "https://github.com/balena-io-playground/temp-tagger"
@@ -2468,15 +2274,6 @@
         },
         "toby-l2": {
             "url": "https://github.com/balena-io-playground/toby-l2"
-        },
-        "transformer-runtime": {
-            "url": "https://github.com/product-os/transformer-runtime"
-        },
-        "transformer-template": {
-            "url": "https://github.com/product-os/transformer-template"
-        },
-        "transformer-worker": {
-            "url": "https://github.com/product-os/transformer-worker"
         },
         "translink-nextbus": {
             "url": "https://github.com/balena-io-playground/translink-nextbus"
@@ -2516,9 +2313,6 @@
         },
         "vehicle-control-demo": {
             "url": "https://github.com/balena-io-playground/vehicle-control-demo"
-        },
-        "versionist": {
-            "url": "https://github.com/product-os/versionist"
         },
         "versionist-example": {
             "url": "https://github.com/balena-io-playground/versionist-example"
@@ -2579,12 +2373,6 @@
         },
         "wifi-repeater": {
             "url": "https://github.com/balenalabs/wifi-repeater"
-        },
-        "windows-base-devel": {
-            "url": "https://github.com/product-os/windows-base-devel"
-        },
-        "windows-nodejs": {
-            "url": "https://github.com/product-os/windows-nodejs"
         },
         "wireless-hdmi-link": {
             "url": "https://github.com/balena-io-playground/wireless-hdmi-link"

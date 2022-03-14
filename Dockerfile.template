@@ -5,13 +5,14 @@ WORKDIR /hound
 
 RUN go get github.com/hound-search/hound/cmds/... 
 
-# Run the hound
+## Run the confignator on a cron job
+# RUN install_packages python3
 # COPY job /etc/cron.d/job
 
-# Give execution rights on the cron job
+## Give execution rights on the cron job
 # RUN chmod 0644 /etc/cron.d/job
 
-# Apply cron job
+## Apply cron job
 # RUN crontab /etc/cron.d/job
 
 CMD ["houndd", "--addr", ":80"]
