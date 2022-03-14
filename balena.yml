@@ -1,5 +1,6 @@
 name: hound
 type: sw.application
+joinable: false
 description: >-
   An extremely fast git repository code searcher.
 assets:
